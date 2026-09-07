@@ -1,13 +1,13 @@
 {
   "home": {
     "meta": {
-      "title": "Wanderburg Wiki — Builds, Demo & How to Play",
-      "description": "Fan-made Wanderburg wiki covering Early Access date, Steam demo, beginner guide, builds, modules and unlock tips for the castle-on-wheels roguelike."
+      "title": "Wanderburg Wiki — Guide, Demo, Builds & Early Access",
+      "description": "Fan-made Wanderburg wiki for Early Access Sep 8, 2026: free Steam demo checklist, beginner guide, best early builds, modules and unlock tips."
     },
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
       "title": "Wanderburg",
-      "description": "Drive a castle on wheels through a medieval roguelike battlefield. Devour villages, expand your fortress, and break runs with modular siege builds.",
+      "description": "Drive a castle on wheels through a medieval roguelike battlefield. Early Access hits Steam Sep 8, 2026 — start with the free demo, then our beginner guide and early builds.",
       "stats": [
         "Early Access Sep 8, 2026",
         "Demo Very Positive (91%)",
@@ -26,23 +26,23 @@
       "cards": [
         {
           "number": "1",
-          "title": "Beginner Guide",
-          "description": "Core loop, controls, and what to do in your first runs."
+          "title": "Free Demo Checklist",
+          "description": "Install the Steam demo, first-session goals, and Demo vs EA."
         },
         {
           "number": "2",
-          "title": "Best Early Builds",
-          "description": "Starter modules and upgrades players chase in the first hours."
+          "title": "Release Date / EA",
+          "description": "Early Access Sep 8, 2026 and the 6–12 month EA window."
         },
         {
           "number": "3",
-          "title": "Modules & Unlocks",
-          "description": "Cannons, towers, vehicles, captains—what unlocks between runs."
+          "title": "Beginner Guide",
+          "description": "Core loop, controls, and a first-hour checklist."
         },
         {
           "number": "4",
-          "title": "Demo Checklist",
-          "description": "What the free demo includes and how it differs from Early Access."
+          "title": "Best Early Builds",
+          "description": "Sustain-first packages and cannon clears for early runs."
         }
       ]
     },
@@ -103,9 +103,9 @@
     "termsOfService": "Terms of Service"
   },
   "metadata": {
-    "title": "Wanderburg Wiki — Builds, Demo & How to Play",
-    "description": "Fan-made Wanderburg wiki covering Early Access date, Steam demo, beginner guide, builds, modules and unlock tips for the castle-on-wheels roguelike.",
-    "keywords": "Wanderburg, Wanderburg wiki, demo, builds, modules, guide, Steam"
+    "title": "Wanderburg Wiki — Guide, Demo, Builds & Early Access",
+    "description": "Fan-made Wanderburg wiki for Early Access Sep 8, 2026: free Steam demo checklist, beginner guide, best early builds, modules and unlock tips.",
+    "keywords": "Wanderburg, Wanderburg wiki, wanderburg demo, wanderburg guide, wanderburg best build, early access, Steam"
   },
   "officialLinks": {
     "website": "https://wanderburg.com",

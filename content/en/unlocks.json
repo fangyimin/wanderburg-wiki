@@ -1,23 +1,55 @@
 {
   "slug": "unlocks",
   "title": "Wanderburg Unlocks — Modules, Vehicles, Captains",
-  "description": "Wanderburg unlocks explained: what Steam says you unlock between runs, including modules, vehicles, artifacts, and captains.",
+  "description": "Wanderburg unlocks explained: Steam’s between-run progression — modules, vehicles, artifacts, and captains — plus what we will not invent before official lists.",
   "keyword": "wanderburg unlocks",
   "h1": "Wanderburg Unlocks",
+  "note": "Category list follows Steam About / modular progression copy. Individual item stats stay 待确认 until official patch notes or in-game codex stabilize.",
   "sections": [
     {
-      "h2": "Between-run progression",
+      "h2": "Between-run progression (Steam wording)",
       "paragraphs": [
-        "According to the Steam store page, a modular progression system expands your fortress with new siege modules and structures between runs.",
-        "Unlockable vehicles, artifacts, and captains steadily widen strategic options and build variety."
+        "A modular progression system lets you expand your moving fortress with new siege modules and structures.",
+        "Unlockable vehicles, artifacts, and captains between runs steadily widen strategic options and build variety.",
+        "In-run upgrades and between-run unlocks are different layers: one reshapes the current attempt; the other opens future strategies."
       ]
     },
     {
-      "h2": "Why unlocks matter for SEO pages",
+      "h2": "Unlock categories players search for",
       "paragraphs": [
-        "Players searching wanderburg unlocks usually want a checklist of meta-progression, not only in-run upgrades.",
-        "Until a complete official list is published in-game or on patch notes, stick to the Steam categories above and mark specifics as 待确认."
+        "Modules / siege mounts: cannons, arcane or wizard towers, explosives and related structures called out on Steam.",
+        "Vehicles / chassis: unlocks that change how the fortress handles and grows across runs.",
+        "Artifacts: meta unlocks that shift build identity (Steam lists them beside captains).",
+        "Captains: between-run characters / identities that open fresh combinations — see Captains for what we can honestly say without fake tiers."
+      ]
+    },
+    {
+      "h2": "How to use unlocks as a beginner",
+      "paragraphs": [
+        "First, learn to survive in the Demo or early EA with sustain + movement (Guide / Tips).",
+        "Then unlock pieces that reinforce what already works (for example artillery identity) instead of grabbing every shiny option.",
+        "Cross-check the Modules navigation hub for category blurbs, then Best Build for early package ideas."
+      ]
+    },
+    {
+      "h2": "Why this page is not a full checklist yet",
+      "paragraphs": [
+        "Players searching wanderburg unlocks usually want every item name. Until Randwerk publishes a stable codex or patch list, inventing rows would mislead you.",
+        "After Early Access launches, we will expand this page with sourced unlock names — not scraped cheat IDs."
+      ]
+    },
+    {
+      "h2": "Related pages",
+      "paragraphs": [
+        "Modules hub → /modules/",
+        "Best early builds → /best-build/",
+        "Captains → /captains/",
+        "Beginner guide → /guide/"
       ]
     }
+  ],
+  "sources": [
+    "https://store.steampowered.com/app/3624140/Wanderburg/",
+    "Steam About text: modular arsenal, between-run unlocks"
   ]
 }

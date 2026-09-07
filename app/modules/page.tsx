@@ -5,9 +5,9 @@ import { Header } from "@/components/Header";
 import { moduleNav } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Wanderburg Modules — Cannons, Towers & Vehicles",
+  title: "Wanderburg Modules — Cannons, Towers & Unlocks",
   description:
-    "Wanderburg modules navigation: cannons, wizard towers, explosives, vehicles, captains and artifacts from Steam's modular siege system.",
+    "Wanderburg modules hub: cannons, wizard towers, explosives, vehicles, captains and artifacts from Steam’s modular siege system — plus links to unlocks and early builds.",
 };
 
 export default function ModulesPage() {
@@ -27,9 +27,14 @@ export default function ModulesPage() {
         </h1>
         <p className="mt-4 max-w-3xl text-lg text-stone-300">
           Navigation hub for modular siege parts. Categories below come from Steam store copy — cannons, arcane towers,
-          explosives, vehicles, artifacts and captains. Individual item stats stay 待确认 until official lists stabilize
-          in Early Access.
+          explosives, vehicles, artifacts and captains. Use this page with Unlocks and Best Build. Individual item stats
+          stay 待确认 until official lists stabilize in Early Access.
         </p>
+        <ul className="mt-6 max-w-3xl list-disc space-y-2 pl-5 text-sm leading-6 text-stone-400">
+          <li>In-run upgrades reshape the current attempt; between-run unlocks open future strategies.</li>
+          <li>Steam frames experimentation: mount cannons, raise wizard towers, deploy explosives, break runs with wild builds.</li>
+          <li>After Sep 8, 2026 EA, prefer patch notes over undated “best mod” cheat lists.</li>
+        </ul>
         <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {moduleNav.map((item) => (
             <article

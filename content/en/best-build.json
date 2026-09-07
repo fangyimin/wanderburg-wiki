@@ -1,61 +1,71 @@
 {
   "slug": "best-build",
-  "title": "Wanderburg Best Build — Early Modules and Upgrades",
-  "description": "Wanderburg best build ideas for early runs: sustain modules, cannon packages, upgrade picks from demo guides, FAQ, and what we refuse to invent.",
+  "title": "Wanderburg Best Build — Early Modules & Upgrades",
+  "description": "Wanderburg best build ideas for early runs: sustain-first packages, cannon + AoE clears, mobility learning builds, and honest FAQ for demo / Early Access.",
   "keyword": "wanderburg best build",
   "h1": "Wanderburg Best Build (Early Game)",
+  "note": "Demo / pre-EA guidance. Module names and balance can shift after September 8, 2026 Early Access patches — re-check Steam news and Discord.",
   "sections": [
     {
-      "h2": "Starter direction",
+      "h2": "Starter direction (no frozen meta yet)",
       "paragraphs": [
-        "There is no single frozen meta yet. Demo-era guides converge on sustain first (Carpenter / Zimmermann healing), then area clear, then boss damage.",
-        "Steam’s own pitch emphasizes experimenting with wildly different builds each run — use these as starting templates, not commandments.",
+        "There is no single official “best build.” Steam’s own pitch says experiment with wildly different builds each run.",
+        "Demo-era guides converge on a simple order: sustain first → area clear → boss damage, while you keep the castle moving.",
         "If you are brand new, finish a couple Demo runs and skim the Beginner Guide before copying any package below."
       ]
     },
     {
-      "h2": "Example package: sustain into cannons",
+      "h2": "Package A — sustain into cannons",
       "paragraphs": [
-        "Open with healing / carpenter modules so you can stay in fights long enough to snowball (Bullet Haven and German tip pages agree on early sustain).",
+        "Open with healing / Carpenter (Zimmermann) style modules so you survive swarm pressure long enough to snowball (Bullet Haven and German tip pages agree on early sustain).",
         "Layer cannons and explosion-proc upgrades for crowd clear. Tip articles warn that oversized firepower without mobility gets you pinned — keep drifting while turrets work.",
-        "Between runs, look for unlocks Steam groups as modules, vehicles, artifacts, and captains that reinforce artillery identity rather than random shiny options."
+        "Between runs, prefer unlocks Steam groups as modules, vehicles, artifacts, and captains that reinforce artillery identity instead of random shiny options.",
+        "This package is a learning template for early hours, not a post-EA ladder claim."
       ]
     },
     {
-      "h2": "Alternate lean: mobility-first learning builds",
+      "h2": "Package B — mobility-first learning",
       "paragraphs": [
-        "If you keep dying to positioning, temporarily value movement comfort and circular kiting over max damage. GameStar’s demo coverage treats castle handling as a core pleasure — it is also a skill gate.",
+        "If you keep dying to positioning, temporarily value movement comfort and circular kiting over max damage.",
+        "GameStar’s demo coverage treats castle handling as a core pleasure — it is also a skill gate.",
         "Once you can circle a fortress without eating every projectile, re-introduce sustain and AoE clear. Builds fail more often from bad driving than from missing a legendary module name."
+      ]
+    },
+    {
+      "h2": "Upgrade habits that transfer after EA",
+      "paragraphs": [
+        "Pick tools that extend run length first (heal, space, clear), then specialize.",
+        "Grow via rival fortresses when you can — Steam framing and tip articles both treat boss castles as the expansion moment.",
+        "After major patches, rebuild this page’s examples from fresh playtests instead of copying undated blogs."
       ]
     },
     {
       "h2": "How this ties to other pages",
       "paragraphs": [
-        "Modules overview: use the Modules navigation page for cannons / towers / explosives / vehicles / captains categories from Steam.",
-        "Unlocks page: explains the between-run layer without a fake checklist of every item ID.",
-        "Captains page: documents the unlock role honestly — we do not publish a fake “best captain” DPS ladder without sourced patch data.",
-        "Tier List page: observation-only roles until multiple independent rankings exist."
+        "Modules hub: cannons / towers / explosives / vehicles / captains categories from Steam.",
+        "Unlocks: between-run layer without a fake full item checklist.",
+        "Captains: unlock role only — no invented DPS ladder.",
+        "Tier List: observation-only roles until multiple independent rankings exist."
       ]
     },
     {
       "h2": "Build FAQ",
       "paragraphs": [
-        "What is the best build right now? There is no stable post-EA consensus on research day. Start sustain → AoE → boss damage, then adapt.",
-        "Should I use cheat / item-ID sites? No. This wiki will not recommend save editors or trainer pages even though searchers look for them.",
-        "Will EA wipe the demo meta? Very likely systems and drop pools change. Revisit this article after major patches and prefer Steam news / Discord notes over undated blogs."
+        "What is the best build right now? No stable post-EA consensus on research day. Start sustain → AoE → boss damage, then adapt.",
+        "Should I use cheat / item-ID sites? No. This wiki will not recommend save editors or trainers.",
+        "Will EA wipe the demo meta? Systems and drop pools will likely change. Prefer Steam news / Discord notes over nostalgia."
       ]
     },
     {
       "h2": "What we are not claiming",
       "paragraphs": [
         "We do not publish fake DPS tables, invented item IDs, or guaranteed drop rates.",
-        "After September 8, 2026 Early Access, update priorities with patch notes and fresh community tests — not nostalgia for demo-era tips."
+        "Pirate captain + cannons style combos appear in community discussion — treat them as flavor ideas until you verify in your build of the game."
       ]
     }
   ],
-  "note": "Demo / pre-EA guidance. Numbers and module names may shift after Early Access patches.",
   "sources": [
-    "Steam store progression / build experimentation copy",
+    "https://store.steampowered.com/app/3624140/Wanderburg/",
     "https://bullethaven.com/review/wanderburg",
     "https://www.apocanow.de/cheats/multi/31778/wanderburg",
     "https://www.gamestar.de/artikel/wanderburg-steam-next-fest-meinung-vorschau,3448718.html"

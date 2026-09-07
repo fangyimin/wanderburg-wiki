@@ -1,62 +1,68 @@
 {
   "slug": "guide",
   "title": "Wanderburg Guide — How to Play for Beginners",
-  "description": "Wanderburg beginner guide: core loop, castle controls, early priorities, FAQ, and how to grow your fortress in the first runs.",
+  "description": "Wanderburg beginner guide: core loop, castle controls, first-hour checklist, between-run unlocks, and FAQ for the Steam demo and Early Access.",
   "keyword": "wanderburg guide",
   "h1": "Wanderburg Beginner Guide",
+  "note": "Tactics below lean on Steam About text plus demo-era tip articles. After Early Access patches, prefer fresh Steam news / Discord notes over undated blogs.",
   "sections": [
     {
       "h2": "What you do each run",
       "paragraphs": [
-        "Wanderburg is a survivors-like roguelike where you drive a castle on wheels. You roll through the map, devour villages and smaller fortresses, then expand your stronghold with modular siege gear.",
-        "Official Steam copy frames the fantasy simply: castles hunt, villages flee, and only the biggest stronghold survives. Your castle does not just upgrade — it expands.",
-        "If you only want the vibe before reading tactics, watch the official reveal trailer or skim our Gameplay page, then come back here for the first-hour checklist."
+        "Wanderburg is a minimalist medieval roguelike where you drive a castle on wheels. Castles hunt, villages flee, and only the biggest stronghold survives.",
+        "Steam’s loop in one line: roll forward, consume settlements and smaller fortresses, expand the fortress with modular siege gear, and break runs with wild build experiments.",
+        "Your castle does not only upgrade stats — defeating powerful enemy castles is the main moment it physically grows.",
+        "If you only want the vibe first, watch the official reveal trailer or skim Gameplay, then come back for the checklist."
       ]
     },
     {
       "h2": "Controls and movement",
       "paragraphs": [
-        "Steam lists full support for mouse, keyboard, or controller. Community write-ups (GameStar, Bullet Haven) highlight inertia, drifting, and short nitro boosts — movement matters as much as firepower.",
-        "Tip from published guides: use drifts and circular paths so your frontal maw keeps eating while turrets keep shooting. Straight-line charging is easier to surround.",
-        "Controller players can start from Steam’s default layout. For handheld questions, see Steam Deck notes on this wiki — official Deck Verified status was not confirmed in our research pass."
+        "Steam lists full support for mouse, keyboard, or controller.",
+        "Published hands-on pieces (GameStar, Bullet Haven) highlight inertia, drifting, and short nitro-style boosts — movement matters as much as firepower.",
+        "Practical habit: circle enemy fortresses so your frontal maw keeps eating while turrets keep shooting. Straight-line charging is easier to surround.",
+        "For handheld questions see Steam Deck notes on this wiki — official Deck Verified status was not confirmed in our research pass."
       ]
     },
     {
-      "h2": "First-hour priorities",
+      "h2": "First-hour checklist",
       "paragraphs": [
-        "Independent tips pages (Bullet Haven; German tip write-ups such as Apocanow) recommend prioritizing Carpenter / Zimmermann-style modules early for passive healing so you survive swarm pressure longer.",
-        "Focus boss fortresses when you can — published guides note that toppling rival castles is the main moment your fortress physically grows, not endless small grinds.",
-        "After you can stay alive for a few minutes, layer area-clear upgrades (community guides often favor on-hit explosion procs) before greedily stacking single-target only."
+        "1) Install the free Demo (or EA after Sep 8, 2026) and finish two short runs that only practice drifting and not dying to swarms.",
+        "2) When upgrades appear, prioritize sustain — demo tip pages (Bullet Haven; German tip write-ups) recommend Carpenter / Zimmermann-style healing early.",
+        "3) Focus boss fortresses when you can; published guides note toppling rival castles grows the fortress more than endless tiny grinds.",
+        "4) After you can live a few minutes, layer area-clear (community guides often favor on-hit explosion procs) before greedily stacking single-target only.",
+        "5) Between runs, unlock modules / vehicles / artifacts / captains that reinforce what already worked — Steam describes that meta layer explicitly.",
+        "6) Then open Tips and Best Build on this wiki; skip cheat / item-ID sites."
       ]
     },
     {
       "h2": "Between runs",
       "paragraphs": [
-        "Steam describes a modular progression layer: unlock new modules, vehicles, artifacts, and captains between runs to open fresh strategies.",
+        "Steam describes modular progression: expand the moving fortress with new siege modules and structures, while unlockable vehicles, artifacts, and captains widen strategies.",
         "Treat Early Access balance as fluid. Prefer evergreen advice (survive longer, grow via bosses, unlock variety) over patch-specific numbers until the meta stabilizes.",
-        "When you are ready to specialize, jump to Best Build for an early package, Unlocks for meta categories, and Captains for what we can honestly say about that unlock lane."
+        "Specialize next on Best Build, Modules, Unlocks, and Captains — we refuse fake “best captain DPS ladders” without sourced data."
       ]
     },
     {
       "h2": "Beginner FAQ",
       "paragraphs": [
-        "Is Wanderburg free? The full Early Access game is a paid Steam title. A separate free Demo exists — details on the Demo page and Price page.",
-        "When did it launch? Steam listed Early Access for September 8, 2026. Confirm live dates on the store page; see Release Date for the EA window note (about 6–12 months estimated).",
-        "Is there multiplayer? Based on Steam and official marketing reviewed for this wiki, co-op is not advertised. See the Multiplayer FAQ so you are not misled by search suggestions.",
-        "Are there redeem codes? We found no official code system in store materials, so this wiki keeps codes as 暂无 instead of inventing strings."
+        "Is Wanderburg free? The full Early Access game is a paid Steam title. A separate free Demo exists — see Demo and Price.",
+        "When does it launch? Steam lists Early Access for September 8, 2026, with an estimated 6–12 month EA window — see Release Date.",
+        "Is there multiplayer? Based on Steam and official marketing reviewed for this wiki, co-op is not advertised — see Multiplayer FAQ.",
+        "Are there redeem codes? We found no official code system in store materials, so this wiki keeps codes as 暂无."
       ]
     },
     {
       "h2": "Where to go next",
       "paragraphs": [
         "New players: Demo → this Guide → Tips → Best Build.",
-        "Researchers / wishlist crowd: Trailer → Release Date → System Requirements.",
-        "Official hubs: wanderburg.com, Steam app 3624140, Discord discord.gg/DU5Ty8HzTt, and Randwerk on YouTube."
+        "Calendar watchers: Trailer → Release Date → System Requirements.",
+        "Official hubs: wanderburg.com, Steam app 3624140, Discord discord.gg/DU5Ty8HzTt, Randwerk on YouTube."
       ]
     }
   ],
   "sources": [
-    "Steam store About text",
+    "https://store.steampowered.com/app/3624140/Wanderburg/",
     "https://bullethaven.com/review/wanderburg",
     "https://www.apocanow.de/cheats/multi/31778/wanderburg",
     "https://www.gamestar.de/artikel/wanderburg-steam-next-fest-meinung-vorschau,3448718.html"

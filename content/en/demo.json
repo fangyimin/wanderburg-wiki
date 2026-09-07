@@ -1,55 +1,68 @@
 {
   "slug": "demo",
-  "title": "Wanderburg Demo — How to Play the Free Steam Demo",
-  "description": "Wanderburg demo guide: Steam download, review score context, what the demo includes, FAQ, and how it relates to Early Access.",
+  "title": "Wanderburg Demo — Free Steam Demo Guide & Checklist",
+  "description": "Wanderburg demo guide: how to download the free Steam demo, what you can play, FAQ vs Early Access, and a first-session checklist before Sep 8, 2026 EA.",
   "keyword": "wanderburg demo",
-  "h1": "Wanderburg Demo",
+  "h1": "Wanderburg Demo — Free Steam Trial",
+  "note": "Demo facts below come from Steam / Next Fest coverage. Review scores and store wording can change — re-check the live Steam demo page.",
   "sections": [
     {
-      "h2": "Where to play",
+      "h2": "How to download the free demo",
       "paragraphs": [
-        "The free Wanderburg Demo is on Steam (app 4268810). Install it from the Steam store like any other free title — you do not need the paid Early Access app to try the demo.",
-        "Developer / festival messaging around Steam Next Fest said the demo would remain available for the foreseeable future. Always double-check the live store page if a festival page expires.",
-        "As captured in our 关卡3 research snapshot, the demo sat at Very Positive with roughly 91% positive from about 1,377 reviews — re-check Steam for live numbers."
+        "Open the Steam demo store page (app 4268810): https://store.steampowered.com/app/4268810/Wanderburg_Demo/",
+        "Click Play Game / Install while signed into Steam. You do not need to own the paid Early Access app (3624140) to try the demo.",
+        "If the main game page shows Download Wanderburg Demo, that button jumps to the same free demo app.",
+        "Wishlist the full game on the main store page if you want a launch reminder when Early Access unlocks."
       ]
     },
     {
-      "h2": "What you can expect in the demo",
+      "h2": "What the demo lets you feel",
       "paragraphs": [
-        "Steam demo text matches the full game pitch: consume settlements, expand the fortress, mount cannons / wizard towers / explosives, and experiment with builds.",
-        "GameStar’s hands-on piece describes a “one more run” loop driven by castle driving physics and module combinations — expect learning the vehicle feel to take a few deaths.",
-        "Between-run unlock language on Steam (modules, vehicles, artifacts, captains) appears in the same product family. The demo is the safest place to feel that loop before spending money."
+        "Steam’s pitch for Wanderburg carries into the demo: drive a castle on wheels, devour villages and smaller fortresses, mount modular siege gear, and experiment with builds.",
+        "Hands-on coverage (GameStar) describes a strong “one more run” loop — castle inertia, drifting, short boosts, and module combinations are the skill gate, not only DPS numbers.",
+        "Between-run language on Steam (modules, vehicles, artifacts, captains) is part of the same product family. Use the demo to learn movement and early sustain before you spend money on EA."
       ]
     },
     {
-      "h2": "Demo vs Early Access",
+      "h2": "Demo vs Early Access (Sep 8, 2026)",
       "paragraphs": [
-        "Full Early Access was scheduled for September 8, 2026 on Steam (app 3624140). Developers estimated about 6–12 months in EA, with more content and balance based on community feedback.",
-        "Use the demo to learn handling and early builds; expect systems and unlock pools to grow after EA. For schedule context see Release Date; for cost vs free confusion see Price.",
-        "If you only need cinematic context before downloading, watch the official reveal trailer linked on our Trailer page."
+        "Full Early Access is scheduled for September 8, 2026 on Steam. Developers estimate about 6–12 months in EA, with more content and balance from Discord / Steam feedback.",
+        "The demo is a free trial slice, not the complete EA build. Expect unlock pools, biomes, and balance to grow after launch.",
+        "Developer notes during Steam Next Fest said the demo would remain available for the foreseeable future — still verify on the live store if a festival banner expires.",
+        "For schedule detail see Release Date. For “is it free?” confusion see Price."
       ]
     },
     {
-      "h2": "Hardware & input checklist",
+      "h2": "First-session checklist (30–60 minutes)",
       "paragraphs": [
-        "Steam positions Wanderburg as friendly to modest PCs (“ready for potato”) with playable mouse, keyboard, or controller support. Live Minimum / Recommended rows can change — trust the Steam system requirements panel.",
-        "Our System Requirements page summarizes that positioning without inventing FPS benchmarks. Steam Deck Verified status was not confirmed in research; treat Deck play as community-tested."
+        "Run 1–2 short attempts focusing only on drifting, re-angling the frontal maw, and not getting pinned — ignore “perfect” builds.",
+        "When upgrades appear, prefer early sustain (Carpenter / Zimmermann-style healing called out in demo tip articles) so you can practice longer.",
+        "After you can stay alive a few minutes, try area-clear options (community guides often like on-hit explosion procs) while you keep circling.",
+        "Then open this wiki’s Beginner Guide → Tips → Best Build pages, and decide whether to wait for / buy EA."
+      ]
+    },
+    {
+      "h2": "Hardware & input",
+      "paragraphs": [
+        "Steam lists full mouse, keyboard, or controller support and positions the game as friendly to modest PCs (“ready for potato”). Trust the live Minimum / Recommended panel for exact rows.",
+        "Our System Requirements page summarizes that positioning without inventing FPS benchmarks. Official Steam Deck Verified status was not confirmed in research — treat Deck play as community-tested."
       ]
     },
     {
       "h2": "Demo FAQ",
       "paragraphs": [
-        "Do I keep demo progress into EA? Official store pages we reviewed did not promise a full save migration story — assume demo practice is for skill, not permanent inventory, until Randwerk says otherwise.",
-        "Is the demo the full game? No. It is a free trial slice. Paid EA is the growing product.",
-        "Where do I ask questions? Official Discord (linked from Steam) and Steam discussions are the correct channels for bug reports; this fan wiki cannot replace them."
+        "Do I keep demo progress into EA? Store pages we reviewed did not promise a full save migration story — treat demo runs as practice until Randwerk says otherwise.",
+        "Is the demo the full game? No. Paid Early Access is the growing product.",
+        "Where do I report bugs? Official Discord (linked from Steam) and Steam discussions — this fan wiki cannot replace them.",
+        "Demo review vibe (research snapshot): Very Positive with roughly 91% positive from about 1,377 reviews — re-check Steam for live numbers."
       ]
     },
     {
-      "h2": "Suggested path after installing",
+      "h2": "Where to go next",
       "paragraphs": [
-        "Run 2–3 short attempts focusing only on drifting and not dying to swarms.",
-        "Then read the Beginner Guide and Tips pages, and try the sustain-first package on Best Build.",
-        "When you are ready to buy or wait: Release Date + Price + the main Steam store page."
+        "Still learning: Beginner Guide → Tips → Best Build.",
+        "Watching the clock: Release Date → Price → main Steam wishlist.",
+        "Official hubs: wanderburg.com, Discord discord.gg/DU5Ty8HzTt, Randwerk on YouTube, reveal trailer on our Trailer page."
       ]
     }
   ],
@@ -57,6 +70,6 @@
     "https://store.steampowered.com/app/4268810/Wanderburg_Demo/",
     "https://store.steampowered.com/app/3624140/Wanderburg/",
     "https://www.gamestar.de/artikel/wanderburg-steam-next-fest-meinung-vorschau,3448718.html",
-    "Steam Next Fest / developer demo availability notes from 关卡3"
+    "Steam Next Fest / developer demo availability notes from 关卡3 research"
   ]
 }

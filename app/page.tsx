@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const startLinks = [
-  { href: "/guide", ...home.home.start.cards[0] },
-  { href: "/best-build", ...home.home.start.cards[1] },
-  { href: "/modules", ...home.home.start.cards[2] },
-  { href: "/demo", ...home.home.start.cards[3] },
+  { href: "/demo", ...home.home.start.cards[0] },
+  { href: "/release-date", ...home.home.start.cards[1] },
+  { href: "/guide", ...home.home.start.cards[2] },
+  { href: "/best-build", ...home.home.start.cards[3] },
 ];
 
 const guideGrid = [
