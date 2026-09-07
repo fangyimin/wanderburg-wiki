@@ -43,8 +43,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${display.variable} ${body.variable} font-[family-name:var(--font-body)] antialiased`}>
+      <head>
+        {/* Google tag (gtag.js) — one per page; ID from NEXT_PUBLIC_GA_ID in .env.local */}
         <GoogleAnalytics />
+      </head>
+      <body className={`${display.variable} ${body.variable} font-[family-name:var(--font-body)] antialiased`}>
         {children}
       </body>
     </html>

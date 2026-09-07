@@ -1,6 +1,7 @@
 import Script from "next/script";
 
-const gaId = process.env.NEXT_PUBLIC_GA_ID;
+/** Reads NEXT_PUBLIC_GA_ID from .env.local (or build env). */
+const gaId = process.env.NEXT_PUBLIC_GA_ID?.replace(/^["']|["']$/g, "").trim();
 
 export function GoogleAnalytics() {
   if (!gaId) return null;
