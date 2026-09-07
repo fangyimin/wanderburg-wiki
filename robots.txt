@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://wanderburg.site
+Sitemap: https://wanderburg.site/sitemap.xml
