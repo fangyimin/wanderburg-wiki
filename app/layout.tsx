@@ -3,7 +3,7 @@ import { Fraunces, Outfit } from "next/font/google";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wanderburg-wiki.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://fangyimin.github.io/wanderburg-wiki";
 
 const display = Fraunces({
   variable: "--font-display",

@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wanderburg-wiki.vercel.app";
+export const dynamic = "force-static";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://fangyimin.github.io/wanderburg-wiki";
 
 export default function robots(): MetadataRoute.Robots {
   return {
