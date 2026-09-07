@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Fraunces, Outfit } from "next/font/google";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import "./globals.css";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wanderburg-wiki.vercel.app";
 
 const display = Fraunces({
   variable: "--font-display",
@@ -15,6 +18,7 @@ const body = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Wanderburg Wiki — Builds, Demo & How to Play",
     template: "%s | Wanderburg Wiki",
@@ -40,6 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${display.variable} ${body.variable} font-[family-name:var(--font-body)] antialiased`}>
+        <GoogleAnalytics />
         {children}
       </body>
     </html>
