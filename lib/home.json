@@ -1,0 +1,119 @@
+{
+  "home": {
+    "meta": {
+      "title": "Wanderburg Wiki — Builds, Demo & How to Play",
+      "description": "Fan-made Wanderburg wiki covering Early Access date, Steam demo, beginner guide, builds, modules and unlock tips for the castle-on-wheels roguelike."
+    },
+    "hero": {
+      "eyebrow": "Fan-Made Community Wiki",
+      "title": "Wanderburg",
+      "description": "Drive a castle on wheels through a medieval roguelike battlefield. Devour villages, expand your fortress, and break runs with modular siege builds.",
+      "stats": [
+        "Early Access Sep 8, 2026",
+        "Demo Very Positive (91%)",
+        "gamescom Most Entertaining 2026",
+        "Dev: Randwerk",
+        "Pub: Sidekick Publishing"
+      ],
+      "primaryCta": "Start Beginner Guide",
+      "secondaryCta": "Browse Builds",
+      "tertiaryCta": "Play Free Demo",
+      "videoLabel": "Official Reveal Trailer"
+    },
+    "start": {
+      "eyebrow": "Start Here",
+      "title": "Your Wanderburg Journey",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Beginner Guide",
+          "description": "Core loop, controls, and what to do in your first runs."
+        },
+        {
+          "number": "2",
+          "title": "Best Early Builds",
+          "description": "Starter modules and upgrades players chase in the first hours."
+        },
+        {
+          "number": "3",
+          "title": "Modules & Unlocks",
+          "description": "Cannons, towers, vehicles, captains—what unlocks between runs."
+        },
+        {
+          "number": "4",
+          "title": "Demo Checklist",
+          "description": "What the free demo includes and how it differs from Early Access."
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "What is Wanderburg?",
+      "paragraphs": [
+        "Wanderburg is a minimalist open-world survivors-like roguelike where you pilot a roaming fortress. Castles hunt, villages flee, and only the biggest stronghold survives.",
+        "Each run you consume settlements and rival fortresses to grow, then mount cannons, wizard towers, mines and more. Between runs you unlock modules, vehicles, artifacts and captains for new build paths."
+      ],
+      "stats": [
+        {
+          "label": "Developer",
+          "value": "Randwerk"
+        },
+        {
+          "label": "Publisher",
+          "value": "Sidekick Publishing"
+        },
+        {
+          "label": "Platform",
+          "value": "Steam (PC)"
+        },
+        {
+          "label": "Genre",
+          "value": "Action Roguelike / Survivors-like"
+        },
+        {
+          "label": "Demo Reviews",
+          "value": "91% of 1,377"
+        },
+        {
+          "label": "Award",
+          "value": "gamescom Most Entertaining 2026"
+        },
+        {
+          "label": "EA Window",
+          "value": "About 6–12 months (dev note)"
+        }
+      ],
+      "cta": "Explore All Guides"
+    },
+    "finalCta": {
+      "title": "Ready to Grow the Biggest Castle?",
+      "description": "From your first rolling tower to boss fortresses and wild module combos, this fan wiki tracks what players actually search for.",
+      "primary": "Read the Beginner Guide",
+      "secondary": "Open on Steam"
+    }
+  },
+  "footer": {
+    "aboutTitle": "Wanderburg Wiki",
+    "about": "An independent fan guide site for Wanderburg.",
+    "description": "Castle-on-wheels roguelike on Steam.",
+    "playGame": "Play on Steam",
+    "officialDiscord": "Official Discord",
+    "officialYoutube": "Randwerk YouTube",
+    "communityTool": "暂无",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "metadata": {
+    "title": "Wanderburg Wiki — Builds, Demo & How to Play",
+    "description": "Fan-made Wanderburg wiki covering Early Access date, Steam demo, beginner guide, builds, modules and unlock tips for the castle-on-wheels roguelike.",
+    "keywords": "Wanderburg, Wanderburg wiki, demo, builds, modules, guide, Steam"
+  },
+  "officialLinks": {
+    "website": "https://wanderburg.com",
+    "steam": "https://store.steampowered.com/app/3624140/Wanderburg/",
+    "demo": "https://store.steampowered.com/app/4268810/Wanderburg_Demo/",
+    "discord": "https://discord.gg/DU5Ty8HzTt",
+    "youtube": "https://www.youtube.com/@randwerk2760",
+    "trailer": "https://www.youtube.com/watch?v=pUsprNYfxw0"
+  },
+  "sidebarCodes": "暂无"
+}

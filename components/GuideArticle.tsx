@@ -1,0 +1,43 @@
+import type { GuidePage } from "@/lib/site";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import Link from "next/link";
+
+export function GuideArticle({ page }: { page: GuidePage }) {
+  return (
+    <div className="min-h-screen">
+      <Header />
+      <main className="mx-auto max-w-3xl px-4 py-10">
+        <p className="text-sm text-[hsl(36_78%_55%)]">
+          <Link href="/" className="hover:underline">Home</Link>
+          <span className="mx-2 text-stone-600">/</span>
+          <span className="text-stone-400">{page.keyword}</span>
+        </p>
+        <h1 className="mt-4 font-[family-name:var(--font-display)] text-4xl leading-tight text-stone-100 md:text-5xl">
+          {page.h1}
+        </h1>
+        <p className="mt-4 text-lg text-stone-300">{page.description}</p>
+        {page.note ? (
+          <p className="mt-4 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-100/90">
+            {page.note}
+          </p>
+        ) : null}
+        <div className="prose-custom mt-10 space-y-10">
+          {page.sections.map((section) => (
+            <section key={section.h2}>
+              <h2 className="font-[family-name:var(--font-display)] text-2xl text-[hsl(36_78%_62%)]">
+                {section.h2}
+              </h2>
+              <div className="mt-4 space-y-4 text-base leading-7 text-stone-300">
+                {section.paragraphs.map((p) => (
+                  <p key={p.slice(0, 24)}>{p}</p>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}

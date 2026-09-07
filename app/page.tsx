@@ -1,103 +1,180 @@
-import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { site } from "@/lib/site";
+import home from "@/lib/home.json";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: home.metadata.title,
+  description: home.metadata.description,
+  keywords: home.metadata.keywords,
+};
+
+const startLinks = [
+  { href: "/guide", ...home.home.start.cards[0] },
+  { href: "/best-build", ...home.home.start.cards[1] },
+  { href: "/modules", ...home.home.start.cards[2] },
+  { href: "/demo", ...home.home.start.cards[3] },
+];
+
+const guideGrid = [
+  { href: "/guide", title: "Beginner Guide", desc: "Core loop and first-run priorities." },
+  { href: "/tips", title: "Tips", desc: "Survive longer with heal, drift, AoE picks." },
+  { href: "/best-build", title: "Best Build", desc: "Early sustain into cannons." },
+  { href: "/modules", title: "Modules", desc: "Cannons, towers, mines, vehicles." },
+  { href: "/unlocks", title: "Unlocks", desc: "Between-run modules and captains." },
+  { href: "/demo", title: "Demo", desc: "Free Steam demo checklist." },
+  { href: "/tier-list", title: "Tier List", desc: "Observation-only module roles." },
+  { href: "/steam-deck", title: "Steam Deck", desc: "Controller yes; Deck unverified." },
+  { href: "/multiplayer", title: "Multiplayer", desc: "No official co-op advertised." },
+];
+
+export default function HomePage() {
+  const h = home.home;
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <section className="mx-auto max-w-6xl px-4 pb-16 pt-14">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-[hsl(36_78%_55%)]">
+            {h.hero.eyebrow}
+          </p>
+          <h1 className="mt-4 max-w-3xl font-[family-name:var(--font-display)] text-5xl leading-[1.05] text-stone-50 md:text-7xl">
+            {h.hero.title}
+          </h1>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-300">{h.hero.description}</p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link
+              href="/guide"
+              className="rounded-full bg-[hsl(28_72%_48%)] px-5 py-2.5 text-sm font-semibold text-stone-950 hover:bg-[hsl(36_78%_55%)]"
+            >
+              {h.hero.primaryCta}
+            </Link>
+            <Link
+              href="/best-build"
+              className="rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm font-semibold text-stone-100 hover:bg-white/10"
+            >
+              {h.hero.secondaryCta}
+            </Link>
+            <a
+              href={site.links.demo}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-white/15 px-5 py-2.5 text-sm font-semibold text-stone-200 hover:bg-white/5"
+            >
+              {h.hero.tertiaryCta}
+            </a>
+          </div>
+          <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+            {h.hero.stats.map((stat) => (
+              <div
+                key={stat}
+                className="rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-stone-200"
+              >
+                {stat}
+              </div>
+            ))}
+          </div>
+          <p className="mt-6 text-sm text-stone-500">
+            {h.hero.videoLabel}:{" "}
+            <a className="text-[hsl(36_78%_62%)] hover:underline" href={site.links.trailer} target="_blank" rel="noreferrer">
+              Watch on YouTube
+            </a>
+          </p>
+        </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+        <section className="border-y border-white/10 bg-black/20">
+          <div className="mx-auto max-w-6xl px-4 py-14">
+            <p className="text-sm uppercase tracking-[0.18em] text-[hsl(36_78%_55%)]">{h.start.eyebrow}</p>
+            <h2 className="mt-3 font-[family-name:var(--font-display)] text-3xl text-stone-50 md:text-4xl">
+              {h.start.title}
+            </h2>
+            <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              {startLinks.map((card) => (
+                <Link
+                  key={card.href}
+                  href={card.href}
+                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition hover:border-[hsl(36_78%_45%)] hover:bg-white/[0.06]"
+                >
+                  <div className="text-xs font-semibold text-[hsl(36_78%_55%)]">0{card.number}</div>
+                  <div className="mt-3 text-lg font-semibold text-stone-100">{card.title}</div>
+                  <p className="mt-2 text-sm leading-6 text-stone-400">{card.description}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-6xl px-4 py-14">
+          <h2 className="font-[family-name:var(--font-display)] text-3xl text-stone-50 md:text-4xl">
+            {h.aboutGame.title}
+          </h2>
+          <div className="mt-6 max-w-3xl space-y-4 text-base leading-7 text-stone-300">
+            {h.aboutGame.paragraphs.map((p) => (
+              <p key={p.slice(0, 32)}>{p}</p>
+            ))}
+          </div>
+          <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {h.aboutGame.stats.map((row) => (
+              <div key={row.label} className="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-4">
+                <div className="text-xs uppercase tracking-wide text-stone-500">{row.label}</div>
+                <div className="mt-2 text-sm font-medium text-stone-100">{row.value}</div>
+              </div>
+            ))}
+          </div>
+          <Link href="/modules" className="mt-8 inline-flex text-sm font-semibold text-[hsl(36_78%_62%)] hover:underline">
+            {h.aboutGame.cta} →
+          </Link>
+        </section>
+
+        <section className="border-y border-white/10 bg-black/25">
+          <div className="mx-auto max-w-6xl px-4 py-14">
+            <h2 className="font-[family-name:var(--font-display)] text-3xl text-stone-50">Guides</h2>
+            <p className="mt-3 max-w-2xl text-stone-400">
+              First-batch pages from the 关卡2 matrix. Codes sidebar: 暂无 (no redeem system).
+            </p>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {guideGrid.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-[hsl(36_78%_45%)]"
+                >
+                  <div className="text-lg font-semibold text-stone-100">{item.title}</div>
+                  <p className="mt-2 text-sm text-stone-400">{item.desc}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-6xl px-4 py-16">
+          <div className="rounded-3xl border border-[hsl(36_78%_40%)]/40 bg-gradient-to-br from-[hsl(28_72%_28%)]/40 to-transparent px-6 py-10 md:px-10">
+            <h2 className="font-[family-name:var(--font-display)] text-3xl text-stone-50">
+              {h.finalCta.title}
+            </h2>
+            <p className="mt-4 max-w-2xl text-stone-300">{h.finalCta.description}</p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link
+                href="/guide"
+                className="rounded-full bg-[hsl(28_72%_48%)] px-5 py-2.5 text-sm font-semibold text-stone-950"
+              >
+                {h.finalCta.primary}
+              </Link>
+              <a
+                href={site.links.steam}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-white/20 px-5 py-2.5 text-sm font-semibold text-stone-100"
+              >
+                {h.finalCta.secondary}
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
