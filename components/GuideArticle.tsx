@@ -36,6 +36,16 @@ export function GuideArticle({ page }: { page: GuidePage }) {
             </section>
           ))}
         </div>
+        {page.sources && page.sources.length > 0 ? (
+          <aside className="mt-12 rounded-lg border border-white/10 bg-white/[0.03] px-4 py-4">
+            <h2 className="text-sm font-semibold uppercase tracking-wider text-stone-400">Sources</h2>
+            <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-stone-500">
+              {page.sources.map((s) => (
+                <li key={s}>{s}</li>
+              ))}
+            </ul>
+          </aside>
+        ) : null}
       </main>
       <Footer />
     </div>
