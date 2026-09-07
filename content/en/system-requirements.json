@@ -1,0 +1,32 @@
+{
+  "slug": "system-requirements",
+  "title": "Wanderburg System Requirements — PC Specs",
+  "description": "Wanderburg system requirements and potato-PC positioning from Steam: what official copy says about hardware, controllers, and modest setups.",
+  "keyword": "wanderburg system requirements",
+  "h1": "Wanderburg System Requirements",
+  "sections": [
+    {
+      "h2": "Official positioning",
+      "paragraphs": [
+        "Steam marketing for Wanderburg emphasizes that the game is optimized for modest hardware — the store pitch literally frames it as ready for a potato PC.",
+        "Exact Minimum / Recommended tables can change with EA patches. Always trust the live Steam system requirements panel over any wiki mirror."
+      ]
+    },
+    {
+      "h2": "Input and platform notes",
+      "paragraphs": [
+        "Steam lists full support for mouse, keyboard, or controller. That matters if you planned to play on a living-room PC or handheld dock.",
+        "We did not find an official Steam Deck Verified badge during research. For Deck-specific notes, see the Steam Deck page on this wiki."
+      ]
+    },
+    {
+      "h2": "What this page will not invent",
+      "paragraphs": [
+        "We will not fabricate FPS benchmarks, VRAM numbers, or unsupported console SKUs. If Steam later posts detailed tables, this page should quote those rows directly.",
+        "If your machine struggles, lower resolution first and keep an eye on EA performance hotfixes from Randwerk."
+      ]
+    }
+  ],
+  "note": "Specs are store-page positioning; verify live Steam requirements after each major patch.",
+  "sources": ["Steam store feature list / system requirements panel"]
+}

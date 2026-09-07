@@ -1,0 +1,32 @@
+{
+  "slug": "captains",
+  "title": "Wanderburg Captains — Unlock Roles and Build Identity",
+  "description": "Wanderburg captains explained from Steam meta-progression copy: what captains are for, how they relate to builds, and what is still 待确认 before deep guides.",
+  "keyword": "wanderburg best captain",
+  "h1": "Wanderburg Captains",
+  "sections": [
+    {
+      "h2": "What Steam actually says",
+      "paragraphs": [
+        "Steam’s progression blurb lists captains alongside modules, vehicles, and artifacts as between-run unlocks that widen strategic options.",
+        "Players searching wanderburg best captain usually want a ranked list. Before EA settles, we only document the role category — not invented captain names or fake tier scores."
+      ]
+    },
+    {
+      "h2": "How to use captains in practice",
+      "paragraphs": [
+        "Treat a captain unlock as a build identity lever: once you have sustain and a clear damage package, a captain should reinforce that plan instead of fighting it.",
+        "Pair this page with Best Build and Unlocks. When official patch notes name captains, update this article with sourced abilities instead of speculation."
+      ]
+    },
+    {
+      "h2": "Honesty note",
+      "paragraphs": [
+        "As of research day we did not have two independent, detailed captain databases. Anything claiming precise captain DPS tables without a cited patch is likely guesswork.",
+        "If Discord or Steam news posts a captain roster, cite it here and mark older paragraphs outdated."
+      ]
+    }
+  ],
+  "note": "弱源页：仅确认 captains 属于局间解锁类别，无完整官方名单时不编造。",
+  "sources": ["Steam store modular progression description"]
+}

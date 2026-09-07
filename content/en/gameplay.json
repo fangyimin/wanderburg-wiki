@@ -1,0 +1,31 @@
+{
+  "slug": "gameplay",
+  "title": "Wanderburg Gameplay — Castle Roguelike Loop Explained",
+  "description": "Wanderburg gameplay overview: drive a castle, devour settlements, mount modules, and unlock between runs — based on Steam and demo coverage.",
+  "keyword": "wanderburg gameplay",
+  "h1": "Wanderburg Gameplay",
+  "sections": [
+    {
+      "h2": "The fantasy in one loop",
+      "paragraphs": [
+        "Wanderburg is a minimalist open-world survivors-like where you pilot a roaming fortress. Steam’s pitch: castles hunt, villages flee, and only the biggest stronghold survives.",
+        "Each run you consume settlements and rival fortresses to grow, then mount cannons, wizard towers, mines, and more while learning inertia-heavy castle driving."
+      ]
+    },
+    {
+      "h2": "What makes movement matter",
+      "paragraphs": [
+        "Demo coverage (GameStar, Bullet Haven style write-ups) highlights drifting, short nitro boosts, and circling enemies so your frontal maw keeps eating while turrets fire.",
+        "Unlike pure auto-shooters that stand still, Wanderburg asks you to drive the weapon platform — gameplay skill is half aiming modules, half not getting surrounded."
+      ]
+    },
+    {
+      "h2": "Between-run layer",
+      "paragraphs": [
+        "Steam describes unlocks for modules, vehicles, artifacts, and captains between runs. That meta layer is why gameplay searches often spill into unlocks and builds pages.",
+        "Early Access will keep rewriting balance. Prefer evergreen advice: sustain early, grow via bosses, unlock variety — then revisit after major patches."
+      ]
+    }
+  ],
+  "sources": ["Steam store description", "Demo hands-on coverage cited in 关卡3"]
+}

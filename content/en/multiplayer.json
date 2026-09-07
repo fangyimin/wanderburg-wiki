@@ -1,0 +1,23 @@
+{
+  "slug": "multiplayer",
+  "title": "Wanderburg Multiplayer — Is There Co-op?",
+  "description": "Wanderburg multiplayer FAQ: based on Steam and official materials, the game is presented as a single-player survivors-like with no advertised co-op.",
+  "keyword": "wanderburg multiplayer",
+  "h1": "Does Wanderburg Have Multiplayer?",
+  "sections": [
+    {
+      "h2": "Short answer",
+      "paragraphs": [
+        "Based on Steam store and official marketing copy reviewed for this wiki, Wanderburg is not advertised as online co-op or multiplayer.",
+        "Search demand for wanderburg multiplayer / coop exists, so this page exists to stop false claims — not to invent a mode."
+      ]
+    },
+    {
+      "h2": "What to watch",
+      "paragraphs": [
+        "Randwerk mentions community feedback via Discord and Steam forums during Early Access. If multiplayer is ever planned, official channels should confirm it.",
+        "Until then, treat the game as a single-player fortress roguelike and use Guides / Builds pages for real play advice."
+      ]
+    }
+  ]
+}

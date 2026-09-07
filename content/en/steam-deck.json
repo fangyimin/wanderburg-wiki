@@ -1,0 +1,24 @@
+{
+  "slug": "steam-deck",
+  "title": "Wanderburg Steam Deck & Controller Support",
+  "description": "Wanderburg controller and Steam Deck notes: official input support from Steam, plus honest limits where Deck verification is unconfirmed.",
+  "keyword": "wanderburg steam deck",
+  "h1": "Wanderburg on Steam Deck & Controllers",
+  "sections": [
+    {
+      "h2": "Official input support",
+      "paragraphs": [
+        "Steam states Wanderburg is fully playable with mouse, keyboard, or controller and is optimized for modest hardware (“ready for potato”).",
+        "That makes controller play a first-class path on PC and a reasonable starting point for handheld experiments."
+      ]
+    },
+    {
+      "h2": "Steam Deck status",
+      "paragraphs": [
+        "We did not find an official Steam Deck Verified listing during research. Treat Deck performance as community-tested until Valve/dev pages say otherwise.",
+        "If you play on Deck, start from default controller layout, keep settings conservative, and verify after EA patches."
+      ]
+    }
+  ],
+  "note": "弱页：有官方手柄声明，无官方 Deck 认证专页。"
+}

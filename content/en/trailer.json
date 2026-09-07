@@ -1,0 +1,31 @@
+{
+  "slug": "trailer",
+  "title": "Wanderburg Trailer — Official Reveal & Where to Watch",
+  "description": "Wanderburg trailer links: official reveal on YouTube and Randwerk channel context for players searching gameplay footage.",
+  "keyword": "wanderburg trailer",
+  "h1": "Wanderburg Trailer",
+  "sections": [
+    {
+      "h2": "Official reveal trailer",
+      "paragraphs": [
+        "The primary official reveal trailer used across our research is on YouTube: https://www.youtube.com/watch?v=pUsprNYfxw0",
+        "Watch it for tone, castle-driving fantasy, and siege module spectacle before you jump into the Steam demo."
+      ]
+    },
+    {
+      "h2": "More footage",
+      "paragraphs": [
+        "Randwerk’s YouTube channel (@randwerk2760) is the safest place to find additional official clips as Early Access updates land.",
+        "Third-party gameplay videos help for tips, but treat numbers and unlock claims as unverified until you see them in your own build."
+      ]
+    },
+    {
+      "h2": "After watching",
+      "paragraphs": [
+        "Next reads on this wiki: Beginner Guide for the core loop, Demo for how to install the free Steam build, and Best Build for early sustain packages.",
+        "If you only needed confirmation that a trailer exists, the reveal link above is the canonical starting point we cite in the footer and homepage."
+      ]
+    }
+  ],
+  "sources": ["https://www.youtube.com/watch?v=pUsprNYfxw0", "https://www.youtube.com/@randwerk2760"]
+}

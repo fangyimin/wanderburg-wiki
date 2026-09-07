@@ -1,0 +1,30 @@
+{
+  "slug": "price",
+  "title": "Wanderburg Price — Steam Cost and Is It Free?",
+  "description": "Wanderburg price FAQ: paid Early Access on Steam vs free demo, and how to check the live store price without outdated mirrors.",
+  "keyword": "wanderburg price",
+  "h1": "Wanderburg Price & Free Demo",
+  "sections": [
+    {
+      "h2": "Is Wanderburg free?",
+      "paragraphs": [
+        "The full Wanderburg Early Access build is a paid Steam product. Searches like is wanderburg free usually confuse the free demo with the main app.",
+        "The free Wanderburg Demo (Steam app 4268810) lets you try the fantasy before buying. Demo availability was described as ongoing after Next Fest — confirm on Steam."
+      ]
+    },
+    {
+      "h2": "Where to see the real price",
+      "paragraphs": [
+        "Regional Steam pricing changes with sales and currency. This wiki will not hardcode a dollar amount that goes stale overnight.",
+        "Open the official store page for app 3624140 to see your local price, discounts, and edition notes."
+      ]
+    },
+    {
+      "h2": "Related pages",
+      "paragraphs": [
+        "For schedule questions, read Release Date. For install-before-buy, read Demo. For the gameplay fantasy, read Gameplay or Guide."
+      ]
+    }
+  ],
+  "sources": ["Steam app 3624140", "Steam demo app 4268810"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "guide",
+  "title": "Wanderburg Guide — How to Play for Beginners",
+  "description": "Wanderburg beginner guide: core loop, castle controls, early priorities, and how to grow your fortress in the first runs.",
+  "keyword": "wanderburg guide",
+  "h1": "Wanderburg Beginner Guide",
+  "sections": [
+    {
+      "h2": "What you do each run",
+      "paragraphs": [
+        "Wanderburg is a survivors-like roguelike where you drive a castle on wheels. You roll through the map, devour villages and smaller fortresses, then expand your stronghold with modular siege gear.",
+        "Official Steam copy frames the fantasy simply: castles hunt, villages flee, and only the biggest stronghold survives. Your castle does not just upgrade — it expands."
+      ]
+    },
+    {
+      "h2": "Controls and movement",
+      "paragraphs": [
+        "Steam lists full support for mouse, keyboard, or controller. Community write-ups (GameStar, Bullet Haven) highlight inertia, drifting, and short nitro boosts — movement matters as much as firepower.",
+        "Tip from published guides: use drifts and circular paths so your frontal maw keeps eating while turrets keep shooting. Straight-line charging is easier to surround."
+      ]
+    },
+    {
+      "h2": "First-hour priorities",
+      "paragraphs": [
+        "Independent tips pages recommend prioritizing Carpenter-style modules early for passive healing so you survive swarm pressure longer.",
+        "Focus boss fortresses when you can — published guides note that toppling rival castles is the main moment your fortress physically grows, not endless small grinds."
+      ]
+    },
+    {
+      "h2": "Between runs",
+      "paragraphs": [
+        "Steam describes a modular progression layer: unlock new modules, vehicles, artifacts, and captains between runs to open fresh strategies.",
+        "Treat Early Access balance as fluid. Prefer evergreen advice (survive longer, grow via bosses, unlock variety) over patch-specific numbers until the meta stabilizes."
+      ]
+    }
+  ]
+}

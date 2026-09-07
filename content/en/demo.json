@@ -1,0 +1,30 @@
+{
+  "slug": "demo",
+  "title": "Wanderburg Demo — How to Play the Free Steam Demo",
+  "description": "Wanderburg demo guide: Steam download, review score context, what the demo includes, and how it relates to Early Access.",
+  "keyword": "wanderburg demo",
+  "h1": "Wanderburg Demo",
+  "sections": [
+    {
+      "h2": "Where to play",
+      "paragraphs": [
+        "The free Wanderburg Demo is on Steam (app 4268810). Developer posts during Next Fest said the demo would remain available for the foreseeable future.",
+        "As captured in 关卡3 research, the demo sat at Very Positive with roughly 91% positive from about 1,377 reviews — re-check Steam for live numbers."
+      ]
+    },
+    {
+      "h2": "What you can expect",
+      "paragraphs": [
+        "Steam demo text matches the full game pitch: consume, expand, mount cannons / wizard towers / explosives, and experiment with builds.",
+        "GameStar’s hands-on piece describes a “one more run” loop driven by castle driving physics and module combinations."
+      ]
+    },
+    {
+      "h2": "Demo vs Early Access",
+      "paragraphs": [
+        "Full Early Access was scheduled for Sep 8, 2026 on Steam. Developers estimated about 6–12 months in EA, with more content and balance based on community feedback.",
+        "Use the demo to learn handling and early builds; expect systems and unlock pools to grow after EA."
+      ]
+    }
+  ]
+}

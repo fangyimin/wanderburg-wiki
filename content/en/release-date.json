@@ -1,0 +1,31 @@
+{
+  "slug": "release-date",
+  "title": "Wanderburg Release Date — Early Access Sep 8, 2026",
+  "description": "Wanderburg release date and Early Access window: Steam EA schedule, demo availability, and what the 6–12 month EA note means.",
+  "keyword": "wanderburg release date",
+  "h1": "Wanderburg Release Date & Early Access",
+  "sections": [
+    {
+      "h2": "Confirmed Early Access date",
+      "paragraphs": [
+        "According to the Steam store page used in our 关卡3 research, Wanderburg Early Access was scheduled for September 8, 2026.",
+        "If you searched wanderburg release date or when will wanderburg be released, start here — then re-check Steam for any schedule changes after launch week."
+      ]
+    },
+    {
+      "h2": "How long is Early Access?",
+      "paragraphs": [
+        "Developer notes around the launch window estimated roughly 6–12 months in Early Access, with more content and balance work driven by community feedback on Discord and Steam.",
+        "Treat that range as a planning estimate, not a hard end date. Patch cadence can shift after players pile in."
+      ]
+    },
+    {
+      "h2": "Demo vs full EA",
+      "paragraphs": [
+        "A free Steam demo (app 4268810) was available before EA and developer posts during Next Fest said it would remain available for the foreseeable future.",
+        "Use the demo to learn driving and early modules; expect unlock pools and balance to expand after the Sep 8 EA build."
+      ]
+    }
+  ],
+  "sources": ["Steam store page", "Developer EA window notes from 关卡3 research"]
+}

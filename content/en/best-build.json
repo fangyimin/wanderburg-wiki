@@ -1,0 +1,30 @@
+{
+  "slug": "best-build",
+  "title": "Wanderburg Best Build — Early Modules and Upgrades",
+  "description": "Wanderburg best build ideas for early runs: sustain modules, cannon packages, and upgrade picks reported in demo guides.",
+  "keyword": "wanderburg best build",
+  "h1": "Wanderburg Best Build (Early Game)",
+  "sections": [
+    {
+      "h2": "Starter direction",
+      "paragraphs": [
+        "There is no single frozen meta yet. Demo-era guides converge on sustain first (Carpenter / healing), then area clear, then boss damage.",
+        "Steam’s own pitch emphasizes experimenting with wildly different builds each run — use these as starting templates, not commandments."
+      ]
+    },
+    {
+      "h2": "Example package: sustain into cannons",
+      "paragraphs": [
+        "Open with healing / carpenter modules so you can stay in fights long enough to snowball.",
+        "Layer cannons and explosion-proc upgrades for crowd clear, then look for captain or chassis unlocks between runs that reinforce artillery play."
+      ]
+    },
+    {
+      "h2": "What we are not claiming",
+      "paragraphs": [
+        "We do not publish fake DPS tables or invented item IDs. Cheat-engine / save-edit pages exist online; this wiki will not recommend them.",
+        "After Sep 8, 2026 Early Access launches, revisit this page with patch notes and fresh community tests."
+      ]
+    }
+  ]
+}

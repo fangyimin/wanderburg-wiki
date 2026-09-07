@@ -1,0 +1,31 @@
+{
+  "slug": "tips",
+  "title": "Wanderburg Tips — Survive Longer and Grow Faster",
+  "description": "Practical Wanderburg tips from demo coverage: healing modules, drifting, explosion procs, and boss-focused growth.",
+  "keyword": "wanderburg tips",
+  "h1": "Wanderburg Tips",
+  "sections": [
+    {
+      "h2": "Survive the swarm",
+      "paragraphs": [
+        "German and English tip write-ups agree: early Carpenter / Zimmermann healing modules buy time when the screen fills with enemies.",
+        "Do not wait for random map heals. Passive sustain into the opening upgrade choices when the game offers it."
+      ]
+    },
+    {
+      "h2": "Move like a vehicle, not a survivor clone",
+      "paragraphs": [
+        "Unlike static auto-shooters, Wanderburg rewards drifting around enemy fortresses and using space. Circle, re-angle your maw, and avoid getting pinned.",
+        "GameStar’s demo coverage calls mastering castle movement one of the best parts of the fantasy — treat handling as a skill check."
+      ]
+    },
+    {
+      "h2": "Upgrade preferences (demo-era)",
+      "paragraphs": [
+        "Community guides often prefer on-hit explosion procs for clearing packed small enemies efficiently.",
+        "Balance heavy cannons with mobility. Oversized firepower that leaves you unable to reposition is a common failure mode called out in tip articles."
+      ]
+    }
+  ],
+  "note": "Tips reflect demo / pre-EA coverage and may change after Early Access patches."
+}

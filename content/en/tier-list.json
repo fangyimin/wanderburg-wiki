@@ -1,0 +1,25 @@
+{
+  "slug": "tier-list",
+  "title": "Wanderburg Tier List — Module Types (Early Snapshot)",
+  "description": "A cautious Wanderburg tier list framing for module types. Formal rankings are thin before Early Access — treat this as an observation page.",
+  "keyword": "wanderburg tier list",
+  "h1": "Wanderburg Tier List (Observation)",
+  "sections": [
+    {
+      "h2": "Why this page is limited",
+      "paragraphs": [
+        "As of research day, there is no widely agreed module tier list with two independent, detailed sources. We keep this page honest instead of inventing ranks.",
+        "Use it as a type checklist while Builds and Modules pages carry actionable advice."
+      ]
+    },
+    {
+      "h2": "Working tiers by role (not power scores)",
+      "paragraphs": [
+        "S-priority early: sustain / healing modules (guide consensus).",
+        "A-priority mid: explosion / AoE clear and flexible cannons.",
+        "Situational: heavy siege pieces that demand good driving; wizard / arcane towers for alternate damage profiles (Steam feature list)."
+      ]
+    }
+  ],
+  "note": "Information sources are thin — page marked 暂缓深度 in 关卡3. Update after EA."
+}
