@@ -3,7 +3,7 @@ import { guides } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://fangyimin.github.io/wanderburg-wiki";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wanderburg.site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
