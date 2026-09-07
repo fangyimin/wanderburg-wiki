@@ -7,7 +7,14 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wanderburg.site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const staticRoutes = ["", "/modules", ...guides.map((g) => `/${g.slug}`)];
+  const staticRoutes = [
+    "",
+    "/modules",
+    ...guides.map((g) => `/${g.slug}`),
+    "/about",
+    "/contact",
+    "/privacy",
+  ];
 
   return staticRoutes.map((path) => ({
     url: path === "" ? `${siteUrl}/` : `${siteUrl}${path}/`,

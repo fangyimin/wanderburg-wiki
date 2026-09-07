@@ -1,6 +1,6 @@
 export const site = {
   name: "Wanderburg Wiki",
-  url: "https://wanderburg.wiki",
+  url: "https://wanderburg.site",
   links: {
     website: "https://wanderburg.com",
     steam: "https://store.steampowered.com/app/3624140/Wanderburg/",

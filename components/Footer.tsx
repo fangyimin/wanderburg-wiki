@@ -32,6 +32,12 @@ export function Footer() {
       </div>
       <div className="border-t border-white/5 py-4 text-center text-xs text-stone-600">
         Fan-made · Not affiliated with Randwerk or Sidekick Publishing · Codes: 暂无
+        <span className="mx-2">·</span>
+        <Link className="hover:text-stone-400" href="/about">About</Link>
+        <span className="mx-2">·</span>
+        <Link className="hover:text-stone-400" href="/contact">Contact</Link>
+        <span className="mx-2">·</span>
+        <Link className="hover:text-stone-400" href="/privacy">Privacy</Link>
       </div>
     </footer>
   );
