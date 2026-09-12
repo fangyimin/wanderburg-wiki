@@ -1,0 +1,63 @@
+{
+  "categories": [
+    {
+      "category": "guide",
+      "keywords": [
+        "wanderburg guide",
+        "wanderburg how to play",
+        "wanderburg tips"
+      ]
+    },
+    {
+      "category": "builds",
+      "keywords": [
+        "wanderburg best build",
+        "wanderburg upgrades",
+        "wanderburg tier list"
+      ]
+    },
+    {
+      "category": "modules",
+      "keywords": [
+        "wanderburg modules",
+        "wanderburg unlocks"
+      ]
+    },
+    {
+      "category": "demo",
+      "keywords": [
+        "wanderburg demo"
+      ]
+    },
+    {
+      "category": "release",
+      "keywords": [
+        "wanderburg release date",
+        "wanderburg early access"
+      ]
+    },
+    {
+      "category": "platforms",
+      "keywords": [
+        "wanderburg steam",
+        "wanderburg steam deck",
+        "wanderburg controller"
+      ]
+    },
+    {
+      "category": "multiplayer",
+      "keywords": [
+        "wanderburg multiplayer"
+      ]
+    }
+  ],
+  "notes": {
+    "total_keywords": 15,
+    "filtered_out": ["wanderburg", "waardenburg syndrome", "wanderburg mobile", "wanderburg download free", "sidekick mammoth wanderburg"],
+    "merged_synonyms": {
+      "wanderburg build -> wanderburg best build": "best build 更贴近搜索习惯",
+      "wanderburg tipps -> wanderburg tips": "英文主市场用 tips",
+      "wanderburg requirements -> 并入 steam deck/controller 平台页或首页 FAQ，不单开": "量弱且偏通用"
+    }
+  }
+}
