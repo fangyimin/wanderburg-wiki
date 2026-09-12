@@ -59,6 +59,12 @@
         "Calendar watchers: Trailer → Release Date → System Requirements.",
         "Official hubs: wanderburg.com, Steam app 3624140, Discord discord.gg/DU5Ty8HzTt, Randwerk on YouTube."
       ]
+    },
+    {
+      "h2": "Quick answers (2026-09-12)",
+      "paragraphs": [
+        "Top landing / had high bounce. Start here, then follow internal links to deeper pages — this block is refreshed daily from GA/GSC signals."
+      ]
     }
   ],
   "sources": [
@@ -66,5 +72,6 @@
     "https://bullethaven.com/review/wanderburg",
     "https://www.apocanow.de/cheats/multi/31778/wanderburg",
     "https://www.gamestar.de/artikel/wanderburg-steam-next-fest-meinung-vorschau,3448718.html"
-  ]
+  ],
+  "updatedAt": "2026-09-12"
 }
