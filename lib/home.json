@@ -7,7 +7,7 @@
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
       "title": "Wanderburg",
-      "description": "New here? Start with the Beginner Guide — Drive a castle on wheels through a medieval roguelike battlefield. Early Access hits Steam Sep 8, 2026 — start with the free demo, then our beginner guide and early builds.",
+      "description": "Unofficial Wanderburg wiki — if you searched «wanderburg wiki», start with the beginner guide (5-min read). Then try the free demo checklist and early build picks.",
       "stats": [
         "Early Access Sep 8, 2026",
         "Demo Very Positive (91%)",
@@ -91,9 +91,9 @@
       "secondary": "Open on Steam"
     },
     "quickAnswers": {
-      "title": "Quick answers (2026-09-13)",
+      "title": "Start here",
       "updated": "2026-09-13",
-      "intro": "Homepage bounce 72% (94 sessions in 7d). Most visitors leave without a clear next step — pick a card below to jump straight into the guide you need.",
+      "intro": "Pick the question that matches why you landed on this wiki — each card opens a focused guide page.",
       "items": [
         {
           "q": "What should I do first?",

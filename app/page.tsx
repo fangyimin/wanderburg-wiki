@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 };
 
 const startLinks = [
-  { href: "/demo", ...home.home.start.cards[0] },
-  { href: "/release-date", ...home.home.start.cards[1] },
-  { href: "/guide", ...home.home.start.cards[2] },
+  { href: "/guide", ...home.home.start.cards[0] },
+  { href: "/demo", ...home.home.start.cards[1] },
+  { href: "/release-date", ...home.home.start.cards[2] },
   { href: "/best-build", ...home.home.start.cards[3] },
 ];
 
@@ -52,28 +52,38 @@ export default function HomePage() {
             {h.hero.title}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-300">{h.hero.description}</p>
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8">
             <Link
               href="/guide"
-              className="rounded-full bg-[hsl(28_72%_48%)] px-5 py-2.5 text-sm font-semibold text-stone-950 hover:bg-[hsl(36_78%_55%)]"
+              className="inline-flex rounded-full bg-[hsl(28_72%_48%)] px-6 py-3 text-base font-semibold text-stone-950 shadow-lg shadow-[hsl(28_72%_28%)]/40 hover:bg-[hsl(36_78%_55%)]"
             >
               {h.hero.primaryCta}
             </Link>
-            <Link
-              href="/best-build"
-              className="rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm font-semibold text-stone-100 hover:bg-white/10"
-            >
-              {h.hero.secondaryCta}
-            </Link>
-            <a
-              href={site.links.demo}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-full border border-white/15 px-5 py-2.5 text-sm font-semibold text-stone-200 hover:bg-white/5"
-            >
-              {h.hero.tertiaryCta}
-            </a>
+            <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-stone-400">
+              <Link href="/best-build" className="font-medium text-[hsl(36_78%_62%)] hover:underline">
+                {h.hero.secondaryCta}
+              </Link>
+              <span aria-hidden className="text-stone-600">
+                ·
+              </span>
+              <a
+                href={site.links.demo}
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium text-stone-400 hover:text-stone-200 hover:underline"
+              >
+                {h.hero.tertiaryCta}
+              </a>
+            </div>
           </div>
+
+          {"quickAnswers" in h && h.quickAnswers ? (
+            <HomeQuickAnswers
+              embedded
+              block={h.quickAnswers as Parameters<typeof HomeQuickAnswers>[0]["block"]}
+            />
+          ) : null}
+
           <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
             {h.hero.stats.map((stat) => (
               <div
@@ -91,10 +101,6 @@ export default function HomePage() {
             </a>
           </p>
         </section>
-
-        {"quickAnswers" in h && h.quickAnswers ? (
-          <HomeQuickAnswers block={h.quickAnswers as Parameters<typeof HomeQuickAnswers>[0]["block"]} />
-        ) : null}
 
         <section className="border-y border-white/10 bg-black/20">
           <div className="mx-auto max-w-6xl px-4 py-14">
