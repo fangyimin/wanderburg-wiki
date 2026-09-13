@@ -8,13 +8,20 @@ type Props = {
   siteName: string;
 };
 
+function ratingClass(active: boolean) {
+  return active
+    ? "border-[hsl(36_78%_45%)] bg-[hsl(28_72%_48%)]/20 text-[hsl(36_78%_62%)]"
+    : "border-white/15 bg-white/5 text-stone-100 hover:bg-white/10";
+}
+
 export function PageFeedback({ pageTitle, siteName }: Props) {
   const pathname = usePathname();
-  const [showNote, setShowNote] = useState(false);
+  const [helpful, setHelpful] = useState<boolean | null>(null);
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  async function submit(helpful: boolean) {
+  async function submit() {
+    if (helpful === null || status === "sending") return;
     setStatus("sending");
     try {
       const res = await fetch("/api/feedback/", {
@@ -47,49 +54,52 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
   return (
     <aside className="mt-12 rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-5">
       <h2 className="text-base font-semibold text-stone-100">Was this page helpful?</h2>
-      <p className="mt-1 text-sm text-stone-500">One-click rating plus an optional note goes to our editors.</p>
+      <p className="mt-1 text-sm text-stone-500">Pick a rating, add an optional note, then submit.</p>
       <div className="mt-4 flex flex-wrap gap-3">
         <button
           type="button"
           disabled={status === "sending"}
-          onClick={() => submit(true)}
-          className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-medium text-stone-100 hover:bg-white/10 disabled:opacity-50"
+          onClick={() => setHelpful(true)}
+          aria-pressed={helpful === true}
+          className={`rounded-full border px-4 py-2 text-sm font-medium disabled:opacity-50 ${ratingClass(helpful === true)}`}
         >
           👍 Yes
         </button>
         <button
           type="button"
           disabled={status === "sending"}
-          onClick={() => setShowNote(true)}
-          className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-medium text-stone-100 hover:bg-white/10 disabled:opacity-50"
+          onClick={() => setHelpful(false)}
+          aria-pressed={helpful === false}
+          className={`rounded-full border px-4 py-2 text-sm font-medium disabled:opacity-50 ${ratingClass(helpful === false)}`}
         >
           👎 Not really
         </button>
       </div>
-      {showNote ? (
-        <div className="mt-4 space-y-3">
-          <label className="block text-sm text-stone-400" htmlFor="page-feedback-note">
-            What&apos;s missing or wrong? (optional)
-          </label>
-          <textarea
-            id="page-feedback-note"
-            rows={2}
-            maxLength={500}
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            placeholder="e.g. demo download steps, outdated date, broken link…"
-            className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm text-stone-200 placeholder:text-stone-600 focus:border-[hsl(36_78%_45%)] focus:outline-none"
-          />
-          <button
-            type="button"
-            disabled={status === "sending"}
-            onClick={() => submit(false)}
-            className="rounded-full bg-[hsl(28_72%_48%)] px-4 py-2 text-sm font-semibold text-stone-950 hover:bg-[hsl(36_78%_55%)] disabled:opacity-50"
-          >
-            {status === "sending" ? "Sending…" : "Send feedback"}
-          </button>
-        </div>
-      ) : null}
+      <div className="mt-4 space-y-3">
+        <label className="block text-sm text-stone-400" htmlFor="page-feedback-note">
+          Anything else? (optional)
+        </label>
+        <textarea
+          id="page-feedback-note"
+          rows={3}
+          maxLength={500}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="e.g. missing topic, outdated info, broken link, or what would help next…"
+          className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm text-stone-200 placeholder:text-stone-600 focus:border-[hsl(36_78%_45%)] focus:outline-none"
+        />
+        <button
+          type="button"
+          disabled={helpful === null || status === "sending"}
+          onClick={submit}
+          className="rounded-full bg-[hsl(28_72%_48%)] px-4 py-2 text-sm font-semibold text-stone-950 hover:bg-[hsl(36_78%_55%)] disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          {status === "sending" ? "Sending…" : "Submit feedback"}
+        </button>
+        {helpful === null ? (
+          <p className="text-xs text-stone-600">Select 👍 or 👎 before submitting.</p>
+        ) : null}
+      </div>
       {status === "error" ? (
         <p className="mt-3 text-sm text-amber-300/90">Could not send right now. Try again or use the Contact page.</p>
       ) : null}
