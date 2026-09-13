@@ -8,8 +8,15 @@ type Props = {
   siteName: string;
 };
 
+function ratingClass(active: boolean) {
+  return active
+    ? "border-[hsl(36_78%_45%)] bg-[hsl(28_72%_48%)]/20 text-[hsl(36_78%_62%)]"
+    : "border-white/15 bg-white/5 text-stone-100 hover:bg-white/10";
+}
+
 export function PageFeedback({ pageTitle, siteName }: Props) {
   const pathname = usePathname();
+  const [helpful, setHelpful] = useState<boolean | null>(null);
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
@@ -22,6 +29,7 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          helpful: helpful === null ? undefined : helpful,
           message: note,
           pagePath: pathname || "/",
           pageTitle,
@@ -46,11 +54,33 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
 
   return (
     <aside className="mt-12 rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-5">
-      <h2 className="text-base font-semibold text-stone-100">Leave a comment</h2>
-      <p className="mt-1 text-sm text-stone-500">Tell us what&apos;s missing, wrong, or what you&apos;d like to see next.</p>
+      <h2 className="text-base font-semibold text-stone-100">Was this page helpful?</h2>
+      <p className="mt-1 text-sm text-stone-500">
+        Leave a comment below — 👍 / 👎 are optional and not required to submit.
+      </p>
+      <div className="mt-4 flex flex-wrap gap-3">
+        <button
+          type="button"
+          disabled={status === "sending"}
+          onClick={() => setHelpful(helpful === true ? null : true)}
+          aria-pressed={helpful === true}
+          className={`rounded-full border px-4 py-2 text-sm font-medium disabled:opacity-50 ${ratingClass(helpful === true)}`}
+        >
+          👍 Yes
+        </button>
+        <button
+          type="button"
+          disabled={status === "sending"}
+          onClick={() => setHelpful(helpful === false ? null : false)}
+          aria-pressed={helpful === false}
+          className={`rounded-full border px-4 py-2 text-sm font-medium disabled:opacity-50 ${ratingClass(helpful === false)}`}
+        >
+          👎 Not really
+        </button>
+      </div>
       <div className="mt-4 space-y-3">
         <label className="block text-sm text-stone-400" htmlFor="page-feedback-note">
-          Your feedback
+          Your comment
         </label>
         <textarea
           id="page-feedback-note"
@@ -67,7 +97,7 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
           onClick={submit}
           className="rounded-full bg-[hsl(28_72%_48%)] px-4 py-2 text-sm font-semibold text-stone-950 hover:bg-[hsl(36_78%_55%)] disabled:cursor-not-allowed disabled:opacity-40"
         >
-          {status === "sending" ? "Sending…" : "Submit"}
+          {status === "sending" ? "Sending…" : "Submit feedback"}
         </button>
       </div>
       {status === "error" ? (
