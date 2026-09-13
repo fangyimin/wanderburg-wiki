@@ -20,17 +20,21 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  async function submit() {
+  const canSubmit = helpful !== null || message.trim().length > 0;
+
+  async function submit(nextHelpful?: boolean | null) {
+    const rating = nextHelpful === undefined ? helpful : nextHelpful;
     const note = message.trim();
-    if (!note || status === "sending") return;
+    if ((rating === null && !note) || status === "sending") return;
+
     setStatus("sending");
     try {
       const res = await fetch("/api/feedback/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          helpful: helpful === null ? undefined : helpful,
-          message: note,
+          helpful: rating === null ? undefined : rating,
+          message: note || undefined,
           pagePath: pathname || "/",
           pageTitle,
           referrer: typeof document !== "undefined" ? document.referrer : "",
@@ -55,15 +59,15 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
   return (
     <aside className="mt-12 rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-5">
       <h2 className="text-base font-semibold text-stone-100">Was this page helpful?</h2>
-      <p className="mt-1 text-sm text-stone-500">
-        Leave a comment below — 👍 / 👎 are optional and not required to submit.
-      </p>
+      <p className="mt-1 text-sm text-stone-500">Tap 👍/👎 or leave a comment — either one is enough to submit.</p>
       <div className="mt-4 flex flex-wrap gap-3">
         <button
           type="button"
           disabled={status === "sending"}
-          onClick={() => setHelpful(helpful === true ? null : true)}
-          aria-pressed={helpful === true}
+          onClick={() => {
+            setHelpful(true);
+            submit(true);
+          }}
           className={`rounded-full border px-4 py-2 text-sm font-medium disabled:opacity-50 ${ratingClass(helpful === true)}`}
         >
           👍 Yes
@@ -71,8 +75,10 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
         <button
           type="button"
           disabled={status === "sending"}
-          onClick={() => setHelpful(helpful === false ? null : false)}
-          aria-pressed={helpful === false}
+          onClick={() => {
+            setHelpful(false);
+            submit(false);
+          }}
           className={`rounded-full border px-4 py-2 text-sm font-medium disabled:opacity-50 ${ratingClass(helpful === false)}`}
         >
           👎 Not really
@@ -80,7 +86,7 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
       </div>
       <div className="mt-4 space-y-3">
         <label className="block text-sm text-stone-400" htmlFor="page-feedback-note">
-          Your comment
+          Your comment (optional)
         </label>
         <textarea
           id="page-feedback-note"
@@ -88,13 +94,13 @@ export function PageFeedback({ pageTitle, siteName }: Props) {
           maxLength={500}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="e.g. missing topic, outdated info, broken link, or what would help next…"
+          placeholder="e.g. missing topic, outdated info, broken link…"
           className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm text-stone-200 placeholder:text-stone-600 focus:border-[hsl(36_78%_45%)] focus:outline-none"
         />
         <button
           type="button"
-          disabled={!message.trim() || status === "sending"}
-          onClick={submit}
+          disabled={!canSubmit || status === "sending"}
+          onClick={() => submit()}
           className="rounded-full bg-[hsl(28_72%_48%)] px-4 py-2 text-sm font-semibold text-stone-950 hover:bg-[hsl(36_78%_55%)] disabled:cursor-not-allowed disabled:opacity-40"
         >
           {status === "sending" ? "Sending…" : "Submit feedback"}
