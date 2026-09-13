@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { HomeQuickAnswers } from "@/components/HomeQuickAnswers";
+import { PageFeedback } from "@/components/PageFeedback";
 import { site } from "@/lib/site";
 import home from "@/lib/home.json";
 
@@ -89,6 +91,10 @@ export default function HomePage() {
             </a>
           </p>
         </section>
+
+        {"quickAnswers" in h && h.quickAnswers ? (
+          <HomeQuickAnswers block={h.quickAnswers as Parameters<typeof HomeQuickAnswers>[0]["block"]} />
+        ) : null}
 
         <section className="border-y border-white/10 bg-black/20">
           <div className="mx-auto max-w-6xl px-4 py-14">
@@ -178,6 +184,10 @@ export default function HomePage() {
               </a>
             </div>
           </div>
+        </section>
+
+        <section className="mx-auto max-w-3xl px-4 pb-16">
+          <PageFeedback pageTitle="Home" siteName={site.name} />
         </section>
       </main>
       <Footer />

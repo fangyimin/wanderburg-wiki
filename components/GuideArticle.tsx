@@ -1,6 +1,8 @@
 import type { GuidePage } from "@/lib/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { PageFeedback } from "@/components/PageFeedback";
+import { site } from "@/lib/site";
 import Link from "next/link";
 
 export function GuideArticle({ page }: { page: GuidePage }) {
@@ -46,6 +48,7 @@ export function GuideArticle({ page }: { page: GuidePage }) {
             </ul>
           </aside>
         ) : null}
+        <PageFeedback pageTitle={page.h1} siteName={site.name} />
       </main>
       <Footer />
     </div>

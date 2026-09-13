@@ -28,6 +28,12 @@ export default function Page() {
           ],
         },
         {
+          h2: "Page feedback",
+          paragraphs: [
+            "Some pages include an optional “Was this helpful?” widget. If you submit it, we store the page URL, optional note, and browser referrer to improve guides. We do not ask for your email in that widget.",
+          ],
+        },
+        {
           h2: "Contact",
           paragraphs: [
             "Privacy questions: use the Contact page or the GitHub repository linked there.",
