@@ -7,7 +7,7 @@
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
       "title": "Wanderburg",
-      "description": "Drive a castle on wheels through a medieval roguelike battlefield. Early Access hits Steam Sep 8, 2026 — start with the free demo, then our beginner guide and early builds.",
+      "description": "New here? Start with the Beginner Guide — Drive a castle on wheels through a medieval roguelike battlefield. Early Access hits Steam Sep 8, 2026 — start with the free demo, then our beginner guide and early builds.",
       "stats": [
         "Early Access Sep 8, 2026",
         "Demo Very Positive (91%)",
@@ -26,18 +26,18 @@
       "cards": [
         {
           "number": "1",
+          "title": "Beginner Guide",
+          "description": "Core loop, controls, and a first-hour checklist."
+        },
+        {
+          "number": "2",
           "title": "Free Demo Checklist",
           "description": "Install the Steam demo, first-session goals, and Demo vs EA."
         },
         {
-          "number": "2",
+          "number": "3",
           "title": "Release Date / EA",
           "description": "Early Access Sep 8, 2026 and the 6–12 month EA window."
-        },
-        {
-          "number": "3",
-          "title": "Beginner Guide",
-          "description": "Core loop, controls, and a first-hour checklist."
         },
         {
           "number": "4",
@@ -89,7 +89,30 @@
       "description": "From your first rolling tower to boss fortresses and wild module combos, this fan wiki tracks what players actually search for.",
       "primary": "Read the Beginner Guide",
       "secondary": "Open on Steam"
-    }
+    },
+    "quickAnswers": {
+      "title": "Quick answers (2026-09-13)",
+      "updated": "2026-09-13",
+      "intro": "Homepage bounce 72% (94 sessions in 7d). Most visitors leave without a clear next step — pick a card below to jump straight into the guide you need.",
+      "items": [
+        {
+          "q": "What should I do first?",
+          "a": "Open the beginner guide for the core loop and a first-hour checklist.",
+          "href": "/guide"
+        },
+        {
+          "q": "Is there a free demo?",
+          "a": "Yes — the Steam demo is free with Very Positive player reviews.",
+          "href": "/demo"
+        },
+        {
+          "q": "Best early build?",
+          "a": "Start sustain-first, then add cannons — see our best build page.",
+          "href": "/best-build"
+        }
+      ]
+    },
+    "updatedAt": "2026-09-13"
   },
   "footer": {
     "aboutTitle": "Wanderburg Wiki",
