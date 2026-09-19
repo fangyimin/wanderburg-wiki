@@ -38,6 +38,8 @@ export function Footer() {
         <Link className="hover:text-stone-400" href="/contact">Contact</Link>
         <span className="mx-2">·</span>
         <Link className="hover:text-stone-400" href="/privacy">Privacy</Link>
+        <span className="mx-2">·</span>
+        <Link className="hover:text-stone-400" href="/terms">Terms</Link>
       </div>
     </footer>
   );

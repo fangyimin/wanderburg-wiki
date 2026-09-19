@@ -9,7 +9,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || siteConfig.siteUrl;
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const contentRoutes = getAllGuides().map((g) => `/${g.slug}`);
-  const staticRoutes = ["", "/modules", "/about", "/contact", "/privacy", ...contentRoutes];
+  const staticRoutes = ["", "/modules", "/about", "/contact", "/privacy", "/terms", ...contentRoutes];
 
   return staticRoutes.map((path) => ({
     url: path === "" ? `${siteUrl}/` : `${siteUrl}${path}/`,
