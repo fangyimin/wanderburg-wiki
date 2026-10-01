@@ -1,0 +1,36 @@
+{
+  "slug": "mods",
+  "title": "Wanderburg Mods — Early Access Status & What to Expect",
+  "description": "Wanderburg mods status in Early Access: no official Steam Workshop or mod API announced yet, what mod support would look like, and safe in-game alternatives.",
+  "keyword": "wanderburg mods",
+  "h1": "Wanderburg Mods (Early Access Status)",
+  "note": "No Steam Workshop page or official mod API was found in research for this wiki. Treat mod support as unannounced until Randwerk confirms it.",
+  "sections": [
+    {
+      "h2": "Short answer",
+      "paragraphs": [
+        "As of Steam Early Access (from September 8, 2026), no official mod support, Steam Workshop page, or mod API for Wanderburg has been announced in the materials reviewed here.",
+        "This page exists because \"wanderburg mods\" is a real search — and publishing a fake mod list would be misleading."
+      ]
+    },
+    {
+      "h2": "What mod support would look like",
+      "paragraphs": [
+        "Steam Workshop integration would let players share modules, vehicles, or balance tweaks through Steam directly.",
+        "Wanderburg already builds on modular systems (modules, vehicles, artifacts, captains), so community content would fit its design — but that is speculation, not an announcement.",
+        "Watch the Steam news hub and the official Discord for any Workshop or mod-tooling news during Early Access."
+      ]
+    },
+    {
+      "h2": "Safe alternatives for now",
+      "paragraphs": [
+        "Get variety from in-game systems instead of external mods: see the Beginner Guide, Best Build, and Modules pages for legitimate build paths.",
+        "Avoid third-party \"mod\" or \"cheat\" downloads that claim to modify the game — they are not officially supported and can break your install."
+      ]
+    }
+  ],
+  "sources": [
+    "https://store.steampowered.com/app/3624140/Wanderburg/",
+    "Steam Early Access FAQ on the store page (developer answers)"
+  ]
+}

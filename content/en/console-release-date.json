@@ -1,0 +1,46 @@
+{
+  "slug": "console-release-date",
+  "title": "Wanderburg Console & Xbox Release Date — What We Know",
+  "description": "Wanderburg console release date status: Early Access is PC/Steam (Sep 8, 2026); no official Xbox, PlayStation or Switch date has been announced yet.",
+  "keyword": "wanderburg xbox release date",
+  "h1": "Wanderburg Console & Xbox Release Date",
+  "note": "No console store listing was found in research for this wiki. Treat any Xbox / PlayStation / Switch date as unannounced until Randwerk or Sidekick confirms it.",
+  "sections": [
+    {
+      "h2": "Short answer",
+      "paragraphs": [
+        "Wanderburg entered Steam Early Access on September 8, 2026 as a PC title. As of this page's last check, no Xbox, PlayStation, or Nintendo Switch release date has been officially announced.",
+        "If you searched \"wanderburg xbox release date\" or \"wanderburg console release date\", the honest answer is: not announced — only the Steam PC build has a confirmed date so far."
+      ]
+    },
+    {
+      "h2": "What is confirmed",
+      "paragraphs": [
+        "Steam lists Wanderburg (app 3624140) as an Early Access PC game, with a separate free demo (app 4268810).",
+        "Controller support exists on PC (mouse, keyboard, or gamepad) — that is not the same as a console port. See the Steam Deck notes on this wiki for handheld specifics.",
+        "Neither the developer (Randwerk) nor the publisher (Sidekick Publishing) has published a console store page in the materials reviewed here."
+      ]
+    },
+    {
+      "h2": "How to watch for a console version",
+      "paragraphs": [
+        "The channels that would announce a port first are the Steam news hub for app 3624140, the official Discord, and Randwerk's YouTube.",
+        "Early Access is expected to run roughly 6–12 months; if a console version is planned, that window is where official messaging would most likely appear.",
+        "Be skeptical of third-party sites listing an Xbox or PS5 date that has no matching official announcement — those are usually guesses."
+      ]
+    },
+    {
+      "h2": "Related pages",
+      "paragraphs": [
+        "PC release date and EA window → /release-date/",
+        "Handheld / Steam Deck status → /steam-deck/",
+        "Free demo checklist before you buy → /demo/"
+      ]
+    }
+  ],
+  "sources": [
+    "https://store.steampowered.com/app/3624140/Wanderburg/",
+    "https://store.steampowered.com/app/4268810/Wanderburg_Demo/",
+    "Steam Early Access FAQ on the store page (developer answers)"
+  ]
+}
