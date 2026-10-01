@@ -1,0 +1,48 @@
+{
+  "slug": "roadmap",
+  "title": "Wanderburg Roadmap — Early Access Plans & Status",
+  "description": "Wanderburg roadmap status: what Steam Early Access FAQ confirms about the 6–12 month EA window, planned polish, and where to watch for real updates.",
+  "keyword": "wanderburg roadmap",
+  "h1": "Wanderburg Roadmap (Early Access)",
+  "note": "No public feature-by-feature roadmap with dates has been published in the sources reviewed here. Prefer Steam news and official Discord over rumor lists.",
+  "sections": [
+    {
+      "h2": "Is there an official Wanderburg roadmap?",
+      "paragraphs": [
+        "As of this wiki’s last check, Wanderburg does not publish a dated public roadmap (no quarter-by-quarter feature calendar, captain list, or patch schedule) on Steam or wanderburg.com materials reviewed here.",
+        "What exists instead is the Steam Early Access FAQ: developers describe why they are in EA, what is already playable, and what they intend to improve before a full release.",
+        "If you searched wanderburg roadmap, treat Steam news for app 3624140 and the official Discord linked from Steam as the live source of truth — not third-party speculation."
+      ]
+    },
+    {
+      "h2": "What Early Access plans are confirmed",
+      "paragraphs": [
+        "Steam lists Early Access starting September 8, 2026, with developers currently expecting roughly 6 to 12 months in EA. That range is a planning estimate and may change.",
+        "Why EA (Steam wording): build Wanderburg with the community — learn which builds, strategies, and combinations players love, break, or completely devour the game with.",
+        "Current state (Steam wording): the game is fully playable and already includes the core loop of rolling through biomes across multiple difficulty levels, consuming villages and fortresses to expand, and experimenting with builds.",
+        "Full-version intent (Steam wording): more content, variety, and polish, plus improvements to systems and balance driven by feedback. Exact feature names and ship dates are 待确认 until announced in Steam news."
+      ]
+    },
+    {
+      "h2": "What is not on a public roadmap yet",
+      "paragraphs": [
+        "Console ports, Steam Workshop / official mod tooling, and a hard 1.0 calendar date are not confirmed on a public feature roadmap in sources reviewed here — see Console Release Date and Mods for status pages.",
+        "Steam notes the price might increase during Early Access as content is added; that is a pricing policy note, not a content roadmap item. See Price for buy-now context.",
+        "Sources are thin on named upcoming biomes, modules, or captains. Do not trust unsourced “leaked” lists."
+      ]
+    },
+    {
+      "h2": "Where to watch updates",
+      "paragraphs": [
+        "Primary channels named on Steam: Steam news / discussions for Wanderburg, and the official Discord the developers say they watch.",
+        "For trailer and channel links, see Trailer. For learning the current loop while EA evolves, start with Guide, Demo, and Builds.",
+        "Re-check this page against fresh Steam FAQ wording after major patches — Early Access messaging can change without a formal roadmap document."
+      ]
+    }
+  ],
+  "sources": [
+    "https://store.steampowered.com/app/3624140/Wanderburg/",
+    "Steam Early Access FAQ on the store page (developer answers)",
+    "https://store.steampowered.com/app/4268810/Wanderburg_Demo/"
+  ]
+}
