@@ -1,0 +1,35 @@
+{
+  "slug": "achievements",
+  "title": "Wanderburg Achievements: Steam List & Unlock Status",
+  "description": "Wanderburg achievements explained: where to find the Steam list, how unlocks work, and which achievement details remain unconfirmed by official sources.",
+  "keyword": "wanderburg achievements",
+  "h1": "Wanderburg Achievements Guide",
+  "sections": [
+    {
+      "h2": "Where to Find the Wanderburg Achievement List",
+      "paragraphs": [
+        "The most reliable place to check Wanderburg's achievements is its Steam store page, which displays any public achievement list for the game. As of this writing, no verified achievement count or achievement names have been confirmed through official channels.",
+        "If you are just starting out, our Wanderburg Guide and Tips pages cover general progression, but achievement-specific requirements are not yet documented here."
+      ]
+    },
+    {
+      "h2": "How Achievements Unlock in Wanderburg",
+      "paragraphs": [
+        "Steam achievements generally unlock automatically when their in-game conditions are met. For Wanderburg, the exact conditions for individual achievements have not been published in official sources yet, so treat community checklists with caution.",
+        "Achievement progress is tied to your Steam account and the full game, not the free Demo build. Check our Demo page if you are trying Wanderburg before buying."
+      ]
+    },
+    {
+      "h2": "What Is Unconfirmed",
+      "paragraphs": [
+        "No official total, hidden-achievement breakdown, or named achievement list for Wanderburg has been confirmed by the developer through Steam announcements or the official site as of this page's last update. Any specific numbers circulating online are unverified.",
+        "This page will be updated once Steam exposes a public achievement list for Wanderburg or the developer shares exact details."
+      ]
+    }
+  ],
+  "note": "Sources are thin: no verified Wanderburg achievement data has been published officially yet.",
+  "sources": [
+    "Steam Store page: Wanderburg",
+    "wanderburg.com (official site)"
+  ]
+}
