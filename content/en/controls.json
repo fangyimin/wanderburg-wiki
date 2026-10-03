@@ -1,0 +1,33 @@
+{
+  "slug": "controls",
+  "title": "Wanderburg Controls: Keyboard, Mouse and Camera Setup",
+  "description": "How to control Wanderburg: what's confirmed about mouse-and-keyboard input, camera navigation and settings, plus where to check for updates.",
+  "keyword": "wanderburg controls",
+  "h1": "Wanderburg Controls",
+  "sections": [
+    {
+      "h2": "What the official sources confirm",
+      "paragraphs": [
+        "Wanderburg is a single-player city builder played with mouse and keyboard on PC. The Steam store page lists the game as designed for standard PC input, with no official controller scheme confirmed at the time of writing.",
+        "Building and placing structures in most city builders of this type is done by selecting tools or pieces with the mouse and clicking to place them. For Wanderburg specifically, the exact placement and hotkey layout has not been documented in an official keybindings list."
+      ]
+    },
+    {
+      "h2": "Camera movement and zoom",
+      "paragraphs": [
+        "Details on camera panning, rotation and zoom are not formally documented. Specific key or mouse combinations are unconfirmed, so check the in-game settings menu or the official Discord for the current layout rather than relying on community lists."
+      ]
+    },
+    {
+      "h2": "Remapping and accessibility options",
+      "paragraphs": [
+        "Whether Wanderburg ships with rebindable keys or accessibility options has not been confirmed by an official source. Try the settings screen after launch, and see the Guide and Demo pages on this site for what to expect before you buy."
+      ]
+    }
+  ],
+  "note": "No official keybinding list is published; treat specific key names as unconfirmed.",
+  "sources": [
+    "Steam store page",
+    "wanderburg.com"
+  ]
+}
