@@ -1,0 +1,42 @@
+{
+  "slug": "characters",
+  "title": "Wanderburg Characters & Crew Roster — Who You Meet (2026)",
+  "description": "Wanderburg characters guide: who you meet on the road to Wanderburg, playable role options, staff, and the thin confirmed roster from official sources so far.",
+  "keyword": "wanderburg characters",
+  "h1": "Wanderburg Characters: The Confirmed Roster So Far",
+  "sections": [
+    {
+      "h2": "What We Know About Wanderburg's Characters",
+      "paragraphs": [
+        "Wanderburg is a co-op medieval tavern-and-cart journey from the makers of PlateUp!, and character information is where its confirmed facts are thinnest. Official pages center on the two core loops — running the tavern to serve guild members and assembling the tavern-cart for the road — rather than on a named cast of characters.",
+        "As of now, there is no official, complete list of named Wanderburg characters. Sources confirmed via Steam and the official site: guild members visit and want to be served, and some can become companions by joining you on the road. The exact names, roles, and total roster size are 待确认 — do not rely on third-party lists until they're confirmed by official channels."
+      ]
+    },
+    {
+      "h2": "Playable Characters and Player Role",
+      "paragraphs": [
+        "The player characters in Wanderburg are best understood as player-chosen roles rather than a fixed cast with set names. The Steam page focuses on shopkeeping choices — managing staff, choosing services, and building the tavern cart — more than on individual hero backstories.",
+        "If you want to know what you can actually do with those roles, the Wanderburg gameplay overview covers the day-to-day loop, and the build guide explains how the cart itself comes together. Until the developers reveal more, treat 'Wanderburg characters' as one player role plus the staff and guild members you meet, not as a large named roster."
+      ]
+    },
+    {
+      "h2": "Staff, Guild Members, and Companions",
+      "paragraphs": [
+        "What is confirmed from official sources: serving guild members is central to progression, and you can recruit staff to help run the tavern. The official site also notes that some guild members can become companions who join the party on the road.",
+        "Specific names, recruitment conditions, companion abilities, and staff counts are not yet published in detail. Anyone claiming a full character tier list or unlockable cast is going beyond the current official material. For progression-related questions, the Wanderburg unlocks page is the better resource for what is actually confirmed."
+      ]
+    },
+    {
+      "h2": "Will There Be More Character Details?",
+      "paragraphs": [
+        "The developers have not released a character encyclopedia or roster announcement yet. Given the game's PlateUp! lineage, expect more named characters to surface in trailers, devlogs, and demo updates as the release window approaches.",
+        "The safest sources are the official Steam store page and wanderburg.site. We update this page as new confirmed character details appear, so if you need the current state of playable roles and systems instead, check the Wanderburg gameplay page."
+      ]
+    }
+  ],
+  "note": "As of 2026-10-04, no official, complete character roster has been published. Names, roles, and companion mechanics are unconfirmed (待确认); treat third-party character lists with caution.",
+  "sources": [
+    "Wanderburg Steam store page",
+    "wanderburg.site"
+  ]
+}
