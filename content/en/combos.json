@@ -1,0 +1,42 @@
+{
+  "slug": "combos",
+  "title": "Wanderburg Best Combo Guide: Synergies & Tips (2026)",
+  "description": "Looking for the best Wanderburg combo? See how captain and character synergies work, why no official combo tier list exists, and how you can theorycraft one yourself.",
+  "keyword": "wanderburg best combo",
+  "h1": "Wanderburg Best Combo: Synergies to Explore",
+  "sections": [
+    {
+      "h2": "What a Combo Means in Wanderburg",
+      "paragraphs": [
+        "Wanderburg's roster of captains and characters invites synergy-focused play rather than single overpowered picks. A 'best combo' is usually understood as a pairing where one pick's strengths cover another's weaknesses or amplify its effect.",
+        "Public sources describe combo-building as a core part of run planning, but the developer has not published a list of stack rankings, so any specific pairing remains community theorycraft."
+      ]
+    },
+    {
+      "h2": "Is There an Official Best Combo?",
+      "paragraphs": [
+        "No. Official materials such as the Steam page and wanderburg.com site keep combo guidance general, and named coverage is thin on exact top pairings.",
+        "What works best also depends on the current build, unlocks, and playstyle, so a single official 'best' answer cannot be confirmed from the sources available today."
+      ]
+    },
+    {
+      "h2": "How to Find Strong Combos Yourself",
+      "paragraphs": [
+        "You can test captain and character synergies directly in the free Demo, then compare picks against the community Tier List and Best Build pages on this wiki when you want a second opinion.",
+        "Watch for unlocks that trigger off each other: the run matters more than any individual pick, so short tests against the same content give more reliable results than copying a static combo list."
+      ]
+    },
+    {
+      "h2": "Related Reading",
+      "paragraphs": [
+        "For a deeper breakdown of which picks perform, start with our Tier List page. If you want a worked build rather than a pairing, the Best Build section and the Tips page cover the wider setup."
+      ]
+    }
+  ],
+  "note": "Specific combo rankings are unconfirmed; treat this page as framework guidance, not official data.",
+  "sources": [
+    "Steam",
+    "wanderburg.com official site",
+    "official Discord"
+  ]
+}
