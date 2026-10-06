@@ -1,0 +1,35 @@
+{
+  "slug": "updates",
+  "title": "Wanderburg Update News: Latest Patch Info & Notes",
+  "description": "Looking for the latest Wanderburg update? Here's where to find official patch notes, update news, and what's changed in the game — all in one place.",
+  "keyword": "wanderburg update",
+  "h1": "Wanderburg Update News and Patch Notes",
+  "sections": [
+    {
+      "h2": "Where to Find Official Wanderburg Update Notes",
+      "paragraphs": [
+        "The most reliable place to check for Wanderburg updates is the game's Steam news hub, where the developer posts patch notes and announcements. The official site (wanderburg.site) and its pages for the Demo, Guide, and Roadmap also reflect current information.",
+        "For live update chatter and changelog links, the official Discord and YouTube channels are worth following, but Steam remains the primary record for what changed in each update."
+      ]
+    },
+    {
+      "h2": "What We Know About Update Cadence",
+      "paragraphs": [
+        "Specific update frequency and version numbers are not independently confirmed here. Sources are thin on a fixed release schedule, so treat any cadence claims as 待确认 until an official announcement is linked."
+      ]
+    },
+    {
+      "h2": "How to Check Your Version and Update the Game",
+      "paragraphs": [
+        "On Steam, the client updates Wanderburg automatically. To confirm you are on the newest build, check the game's Properties > Updates tab or the download manager. If the store page does not show recent news, the Steam news hub mirrors developer posts.",
+        "If you play the Demo, note that demo updates can lag behind the main game; see the Demo page for more on what the trial includes."
+      ]
+    }
+  ],
+  "note": "No specific patch notes, version numbers, or dates are reproduced here. Sources are thin on update cadence; details marked 待确认 need official confirmation.",
+  "sources": [
+    "Steam store page and news hub",
+    "wanderburg.site official site",
+    "Official Discord / YouTube channels"
+  ]
+}
