@@ -1,0 +1,43 @@
+{
+  "slug": "endings",
+  "title": "Wanderburg Endings: Everything We Know So Far",
+  "description": "Everything we know about endings in Wanderburg: are there multiple endings, how to unlock them, and which details are still unconfirmed. Spoiler-light overview",
+  "keyword": "wanderburg endings",
+  "h1": "Wanderburg Endings Explained",
+  "sections": [
+    {
+      "h2": "Are There Multiple Wanderburg Endings?",
+      "paragraphs": [
+        "At the time of writing, no official source — the Steam store page, wanderburg.com, or official announcements — publishes a list of Wanderburg endings. Claims about a specific number of endings or a hidden true-ending route are not backed by official material.",
+        "That does not mean endings are absent. Because Wanderburg plays out in repeated attempts with different captains and characters, players naturally treat the end of a successful attempt as the point where ending content would appear. Until the developers document it, treat third-party ending guides as unverified."
+      ]
+    },
+    {
+      "h2": "How the End of a Run Works",
+      "paragraphs": [
+        "Progress in Wanderburg is shaped by your captain, your characters, and the unlocks you have collected — see our Captains, Characters, and Unlocks pages for those systems. Public footage and store material focus on the gameplay loop rather than a final cutscene or credits sequence.",
+        "Precise end-of-attempt conditions, such as which milestone completes a playthrough, are not confirmed in official writing. Players looking for a definitive how-to-unlock-ending checklist will currently find only thin documentation."
+      ]
+    },
+    {
+      "h2": "Why Ending Details Are Still Thin",
+      "paragraphs": [
+        "Wanderburg receives regular patches (see our Updates and Roadmap pages). Story-finale content is often shipped late in a game's development cycle, so the current build may simply not yet include whichever endings are planned.",
+        "The safest places to watch are the official Discord, the official YouTube channel, and Steam news posts. This page will be revised as soon as an ending is confirmed from an official source."
+      ]
+    },
+    {
+      "h2": "What Remains Confirmed",
+      "paragraphs": [
+        "Well established: captains, characters, and unlocks all feed into how a playthrough develops. Not established by any official source: the number of endings, their unlock requirements, and whether a secret or true ending exists.",
+        "If a guide names specific endings, check whether it links an official source before trusting it. Wanderburg ending information is deliberately spoiler-light until developers publish the content."
+      ]
+    }
+  ],
+  "note": "No official source currently confirms how many endings Wanderburg has or how to unlock them. This page reflects publicly available material and will be updated when details are confirmed.",
+  "sources": [
+    "Steam: Wanderburg store page",
+    "Wanderburg official site (wanderburg.com)",
+    "Official Wanderburg Discord announcements"
+  ]
+}
