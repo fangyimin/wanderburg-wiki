@@ -1,0 +1,36 @@
+{
+  "slug": "weapons",
+  "title": "Wanderburg Weapons Guide: What Is Confirmed So Far",
+  "description": "Wanderburg weapons: what the Steam page and official channels confirm about arms and combat options, and what remains unconfirmed (待确认) as of now.",
+  "keyword": "wanderburg weapons",
+  "h1": "Wanderburg Weapons: What We Know So Far",
+  "sections": [
+    {
+      "h2": "Weapon Info Status",
+      "paragraphs": [
+        "Official Wanderburg channels have published very little detail about the game's weapons so far. There is no complete, officially confirmed weapon list in public sources, so most specific claims circulating in the community remain 待确认 (to be confirmed).",
+        "This page tracks only what the Steam store page, wanderburg.com and official channels support, and it will be updated as the team publishes weapon details. Until then, treat any full arsenal lists, stat sheets or unlock tables as speculation."
+      ]
+    },
+    {
+      "h2": "What Official Sources Confirm",
+      "paragraphs": [
+        "As of now, official materials do not yet document the weapon types, how weapons are obtained, or how they feed into combat. Even basics such as loot versus crafting, melee versus ranged, and weapon progression are 待确认.",
+        "Because no official weapon-by-weapon breakdown exists yet, we deliberately avoid DPS numbers, rarity ratings, drop locations or unlock methods on this page. None of those details have been verified."
+      ]
+    },
+    {
+      "h2": "Where to Watch for Weapon News",
+      "paragraphs": [
+        "The Steam store page and wanderburg.com are the most reliable places for future weapon announcements, with the official Discord as another channel to watch for developer notes.",
+        "Once confirmed details land, related reading will include the builds page for loadout discussion, the tier-list page for rankings, and the gameplay page for how weapons fit into the core loop."
+      ]
+    }
+  ],
+  "note": "No fabricated stats here: weapon names, counts, DPS values and unlock methods are all 待确认 until official sources publish them.",
+  "sources": [
+    "Steam (Wanderburg store page)",
+    "wanderburg.com",
+    "Official Wanderburg Discord"
+  ]
+}
