@@ -1,0 +1,36 @@
+{
+  "slug": "difficulty",
+  "title": "Wanderburg Difficulty: What We Know So Far (2026)",
+  "description": "Wanderburg difficulty: what official sources confirm about settings, scaling, and harder modes. Details are thin right now, so no numbers are invented here.",
+  "keyword": "wanderburg difficulty",
+  "h1": "Wanderburg Difficulty: What's Known So Far",
+  "sections": [
+    {
+      "h2": "Is There a Difficulty Setting in Wanderburg?",
+      "paragraphs": [
+        "Right now, no difficulty selector or named difficulty tiers are publicly documented for Wanderburg. Store pages and the official site list the game's core features — captains, weapons, runs, and builds — but we could not confirm a separate difficulty option.",
+        "If you are looking for a concrete answer, treat it as 待确认: the sources are thin, and nothing should be reported as a confirmed mode yet."
+      ]
+    },
+    {
+      "h2": "How Difficulty Is Likely to Work",
+      "paragraphs": [
+        "Wanderburg's run-based structure (captains, weapons, combos) means challenge is probably tied to progression and per-run variance rather than a fixed menu setting. Enemy scaling, unlock tiers, or optional self-imposed restrictions would all be typical for this kind of game — but none of this is officially confirmed.",
+        "For now, the gameplay page covers the systems that are documented, and the builds page shows which loadouts players are testing. Difficulty-specific numbers, hazards, or modifiers are not published anywhere we can verify."
+      ]
+    },
+    {
+      "h2": "Where to Watch for Confirmed Difficulty Info",
+      "paragraphs": [
+        "The most reliable places to check are the official Wanderburg Discord announcements, the Steam store page notes, and the roadmap. Any announcement about difficulty options would likely appear there — and on this wiki's updates and roadmap pages — before anywhere else.",
+        "Until then, the free demo is the practical way to judge how challenging the game feels. If difficulty systems get confirmed, this page will be updated with sourced details only."
+      ]
+    }
+  ],
+  "note": "No difficulty modes, scaling rules, or modifiers are confirmed by official sources yet — treat all specifics as 待确认.",
+  "sources": [
+    "Wanderburg on Steam (store page)",
+    "wanderburg.com",
+    "Official Wanderburg Discord announcements"
+  ]
+}
