@@ -1,0 +1,43 @@
+{
+  "slug": "lore",
+  "title": "Wanderburg Lore — World, Story & Setting Explained",
+  "description": "An overview of Wanderburg's setting, factions and story. What official Steam and site materials confirm, and which lore details remain unconfirmed.",
+  "keyword": "wanderburg lore",
+  "h1": "Wanderburg Lore Explained",
+  "sections": [
+    {
+      "h2": "What Is Known About the World",
+      "paragraphs": [
+        "Wanderburg's lore is delivered mostly through the game's premise: a land in flux that shifts with every run, where each journey rebuilds a version of the world. Official Steam and site materials describe the setting in broad terms rather than a fixed map or timeline.",
+        "Specific faction names, major historical events, and named rulers are not spelled out in the store pages. Treat most world-building claims found in third-party videos as speculation unless they link to an official source."
+      ]
+    },
+    {
+      "h2": "Where the Story Actually Lives",
+      "paragraphs": [
+        "Most of the game's narrative is carried by card text, event choices, and run endings rather than cutscenes. The characters page and endings page on this wiki collect the confirmed pieces that players have verified from those in-game sources.",
+        "Because runs are procedurally assembled, players may see different fragments in a different order. That makes a single authoritative timeline hard to pin down — and it is why formal lore pages are scarce."
+      ]
+    },
+    {
+      "h2": "Unconfirmed Lore Details (待确认)",
+      "paragraphs": [
+        "Community theories about an overarching villain, a pre-collapse civilization, or hidden connections between characters remain unconfirmed. No official source currently names these elements.",
+        "If you find a store-page quote, Discord statement, or in-game text that settles one of these points, treat it as a scoped fact: note the source, the date, and the exact wording, because the game is still changing."
+      ]
+    },
+    {
+      "h2": "Where to Follow Official Lore",
+      "paragraphs": [
+        "The Steam store page and wanderburg.site are the most stable references for official setting description. The official Discord and Steam news posts are the best places to catch new story material as it is added.",
+        "Check the roadmap and updates pages on this wiki for release notes that mention new events, characters, or endings — those notes are usually the first public signal that the lore has grown."
+      ]
+    }
+  ],
+  "note": "Lore coverage is thin across official channels; details may change during development. No codes, DPS tables, or hidden story beats are confirmed here.",
+  "sources": [
+    "Steam store page",
+    "wanderburg.site",
+    "Official Discord announcements"
+  ]
+}
