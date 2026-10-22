@@ -1,0 +1,36 @@
+{
+  "slug": "review",
+  "title": "Wanderburg Review: What Players Say and Where to Look",
+  "description": "Wanderburg review roundup: Steam ratings, player feedback, and the honest state of critical coverage. Find out if Wanderburg is worth buying in 2026.",
+  "keyword": "wanderburg review",
+  "h1": "Wanderburg Review",
+  "sections": [
+    {
+      "h2": "The Current State of Wanderburg Reviews",
+      "paragraphs": [
+        "At the time of writing, Wanderburg has no widely reported critical consensus. Coverage from major outlets is thin, and most available feedback comes from Steam user reviews plus the official Discord and YouTube channels.",
+        "Community sentiment can shift between updates, so treat older write-ups with caution. The most current picture is the user review summary shown on the Steam store page."
+      ]
+    },
+    {
+      "h2": "Where to Read Trustworthy Feedback",
+      "paragraphs": [
+        "Start with the user review section on the Steam store page, where verified owners post their own verdicts. The official Discord and the developer's YouTube channel are the next best sources for patch notes and community reactions.",
+        "Be wary of third-party sites that republish specs or blurbs without playing the game. If you want to judge Wanderburg for yourself, the Demo page explains how to try it free."
+      ]
+    },
+    {
+      "h2": "Should You Buy Wanderburg Right Now?",
+      "paragraphs": [
+        "With professional reviews still sparse, the safest route is hands-on testing. Try the demo, confirm your PC meets the System Requirements, and play the opening hours before committing.",
+        "Our Guide and Tips pages cover the fundamentals, so you can form an informed opinion faster than any early review would allow. Revisit the Updates page to see how post-launch changes affect the current experience."
+      ]
+    }
+  ],
+  "note": "Coverage is thin at the time of writing: no confirmed outlet scores or named critic verdicts. Check the Steam page for the current user rating.",
+  "sources": [
+    "Steam store page — Wanderburg user reviews",
+    "wanderburg.com",
+    "Official Discord and YouTube channels"
+  ]
+}
